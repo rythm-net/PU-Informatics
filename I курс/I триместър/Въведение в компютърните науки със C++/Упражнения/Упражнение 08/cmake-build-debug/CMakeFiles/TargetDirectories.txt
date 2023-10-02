@@ -1,0 +1,3 @@
+C:/Users/PC/CLionProjects/First Year, First Trimester/Exercise 8/cmake-build-debug/CMakeFiles/Exercise_8.dir
+C:/Users/PC/CLionProjects/First Year, First Trimester/Exercise 8/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/PC/CLionProjects/First Year, First Trimester/Exercise 8/cmake-build-debug/CMakeFiles/rebuild_cache.dir
