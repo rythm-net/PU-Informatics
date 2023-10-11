@@ -1,7 +1,6 @@
-<h2 align="center">Plovdiv University (PU) - Informatics - First Year, Third Trimester</h2>
+<h2 align="center">Programming with Java | Програмиране с Java</h2>
 
 ### Overall Information
-* Discipline - **Programming with Java | Програмиране с Java**
 * Integrated Development Environment (IDE) - [**IntelliJ IDEA Ultimate**](https://www.jetbrains.com/idea/)
 * Java SE Development Kit - [**JDK™**](https://www.oracle.com/java/technologies/downloads/#jdk17-windows)
 * **10 Exercises**
