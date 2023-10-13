@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>ТАБЛИЧНО ПРЕДСТАВЯНЕ</title>
+        <style>
+            td 
+            {font-size: 60px; font-weight:bold;}
+
+            .red, .green, .blue 
+            {display:inline; width:50ps; height:50px;}
+
+            .red {background: red;}
+            .green {background: green;}
+            .blue {background: blue;}
+        </style>
+        <script>
+            // c = ["red", "greeen", "blue",]; i=0;
+            // function cc(){
+            //     document.getElementById("top").setAttribute("bgcolor", c [i++])
+            //     if(i>2)i=0;
+            //     return
+            // }
+
+            // function cc(){
+            //     var tt = tbl;
+            //     tbl.remove();
+            //     document.body.appendChild(tt);
+            // }
+
+            function cc(addr){
+                mc.setAttribute("src", addr)
+            }
+        </script>
+    </head>
+<body>
+    <table border="1" width="900" height="900" align="center" id="tbl">
+        <tr>
+            <td align="center" colspan="3" height="200" id="banner">Ти си най-добрия!</td>
+        </tr>
+        <tr>
+            <td align="center" rowspan="2" width="150">left</td>
+            <td align="center"><iframe width="500" height="500" frameborder="0" id="mc" src="https://www,abv.bg"></iframe></td>
+            <td align="center" rowspan="2" width="150">right</td>
+        </tr>
+        <tr>
+            <td align="center" height="100"><a href="javascript:cc('iv.html');">Натисни!</a></td>
+        </tr>
+    </table>
+    <div class="red"></div>
+    <div class="green"></div>
+    <div class="blue"></div>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+
+        <title>Exercise 3</title>
+
+        <style>
+            div {padding: 10px;}
+            .calculator{margin: auto; background: #7777; border: solid black 3px; width: 200px; height: 280px;}
+            .inps{text-align: right;}
+        </style>
+
+        <script>
+            function calc(){
+                a = document.f.a.value;
+                b = document.f.b.value;
+                if(document.f.sum.checked) r = 1*a + 1*b
+                else if(document.f.sub.checked) r = a - b
+                else if(document.f.mul.checked) r = a * b
+                else if(document.f.div.checked) r = a / b
+                document.f.r.value = r;
+            }
+        </script>
+
+    </head>
+    <body>
+        <form name="f">
+            <div class="calculator">
+                <div>
+                    Число 1
+                    <br>
+                    <input class="inps" name="a">
+                    <br>
+                    Число 2
+                    <br>
+                    <input class="inps" name="b">
+                    <br>
+                    Резултат
+                    <br>
+                    <input name="r" value="0." class="inps">
+                </div>
+
+                <div>
+                    <label><input type="radio" name="assembly" placeholder="" id="sum"> Събиране</label>
+                    <br>
+                    <label><input type="radio" name="subtraction" placeholder="Изваждане" id="subtraction"> Изваждане</label>
+                    <br>
+                    <label><input type="radio" name="multiplication" placeholder="" id="mul"> Умножение</label>
+                    <br>
+                    <label><input type="radio" name="division" placeholder="" id="division"> Деление</label>
+                    <br>
+                </div>
+
+                <div>
+                    <input type="button" value="ИЗЧИСЛИ" onclick="calc()">
+                    <input type="reset" value="ИЗЧИСТИ">
+                </div>
+            </div>
+        </form>
+    </body>
+</html>

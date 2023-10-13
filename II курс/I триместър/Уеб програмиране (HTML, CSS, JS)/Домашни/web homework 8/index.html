@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <body>
+        <div  class="container">
+            <div class="elementsContainer">
+            <div><h1 class="text-success">Бизнес калкулатор</h1></div>
+            <div class="textFields">
+                <div><label for="">Изберете месец</label></div>
+                <div ><input type="month" id="start" name="start" min="2021-11" value="2021-11" onchange="onMounthChange()"> </div>
+                <div> <label for=""> Въведете приход</label></div>
+                <div> <input type="number" id="profit"onkeydown="calculatingVAT()" maxlength="9" ></div>
+                <div><label for=""> Въведете разход</label></div>
+                <div> <input type="number" id="expense" onkeydown="calculatingVAT()" maxlength="9" > </div>
+            </div> 
+            <div class="textFields2">
+                <label for=""> Печалба </label><input type="text" id="overallProfit"  disabled="disabled" maxlength="9"> 
+                <label for=""> Данък </label><input type="text" id="taxes" disabled="disabled" maxlength="9"> 
+            </div>    
+            </div>
+        </div>    
+        
+    </body>
+</html>

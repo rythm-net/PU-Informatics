@@ -1,0 +1,18 @@
+#red{
+    background:red;
+}
+#green{
+    background:green;
+}
+#blue{
+    background:blue;
+}
+.bob{
+    width:50px; 
+    height:50px; 
+    color:yellow;
+    position:absolute;
+    text-align:center; 
+    line-height:50px;
+    transition: left .5s, top .5s;
+}

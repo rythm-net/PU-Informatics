@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="TestCss.css">
+<script src="TestJS.js"></script>
+</head>
+<body>
+    <h1>Първи въпрос</h1>
+  <div class='container' ondrop="drop(event)" ondragover="allowDrop(event)">
+  </div>
+  <div class='container' ondrop="drop(event)" ondragover="allowDrop(event)">
+    <span id="word1" draggable="true" ondragstart="drag(event)">ще</span>
+    <span id="word2" draggable="true" ondragstart="drag(event)">играем</span>
+    <span id="word3" draggable="true" ondragstart="drag(event)">Утре</span>
+    <span id="word4" draggable="true" ondragstart="drag(event)">навън</span>
+    <span id="word5" draggable="true" ondragstart="drag(event)">да</span>
+    <span id="word6" draggable="true" ondragstart="drag(event)">Петко</span>
+    <span id="word7" draggable="true" ondragstart="drag(event)">билярд</span>
+    <span id="word8" draggable="true" ondragstart="drag(event)">с</span>
+    <span id="word9" draggable="true" ondragstart="drag(event)">излизам</span>
+    <span id="word10" draggable="true" ondragstart="drag(event)">и</span>
+    <span id="word11" draggable="true" ondragstart="drag(event)">Теодор</span>
+    <!-- Утре ще излизам навън с Петко и Теодор да играем билярд  -->
+  </div>
+  <h1>Втори въпрос</h1>
+  <div class='container' ondrop="drop(event)" ondragover="allowDrop(event)">
+    <span id="word12" draggable="true" ondragstart="drag(event)">След</span>
+  <span id="word13" draggable="true" ondragstart="drag(event)">ще</span>
+  <span id="word14" draggable="true" ondragstart="drag(event)">отидем</span>
+  <span id="word15" draggable="true" ondragstart="drag(event)">кино</span>
+  <span id="word16" draggable="true" ondragstart="drag(event)">и</span>
+  <span id="word17" draggable="true" ondragstart="drag(event)">гледаме</span>
+</div>
+<div class='container' ondrop="drop(event)" ondragover="allowDrop(event)">
+  <span id="word18" draggable="true" ondragstart="drag(event)">това</span>
+  <span id="word19" draggable="true" ondragstart="drag(event)">на</span>
+  <span id="word20" draggable="true" ondragstart="drag(event)">ще</span>
+  <span id="word21" draggable="true" ondragstart="drag(event)">Спайдър-мен</span>
+  <!-- След това ще отидем на кино и ще гледаме Спайдър-мен -->
+</div>
+<h1>Трети въпрос</h1>
+<div class="container">
+  <h3>Нарисувайте фигура:</h3>
+<a href="canvas.html"class="button"> Рисувай</a>
+</div>
+<h1>Четвърти въпрос</h1>
+<div class="container">
+  <p id="p">110+78+21 = <input type="text"  id="aTF">  <input type="button" class="button" id="aB" value="Отговори" onclick="checkAnswer()"></p>
+</div>
+<h1>Пети въпрос</h1>
+<div class="container2">
+  <p id="p">Кой е първият програмен език ?</p>
+  <input type="button"value="Javascript" class="button" id="q5ba1" onclick="checkAnswerQ5()"><input type="button" value="PHP"class="button"id="q5ba2"onclick="checkAnswerQ5()"><br>
+  <input type="button"value="C#"class="button"id="q5ba3"onclick="checkAnswerQ5()"><input type="button"value="FORTRAN"class="button"id="q5ba4" onclick="q5T()">
+</div>
+<h1>Шести въпрос</h1>
+<div class="container3">
+  <p>Кои програмни езици се използват за създаване на уебсайтове? </p>
+  <label><input type="checkbox" name="html" id="html"> HTML</label>
+
+<label><input type="checkbox" name="c++" id="c++"> C++</label>
+
+<label><input type="checkbox" name="java" id="java"> Java</label>
+<br>
+<br>
+<label><input type="checkbox" name="python" id="python"> Python</label>
+
+<label><input type="checkbox" name="css" id="css" > CSS</label>
+
+<label><input type="checkbox" name="javascript" id="javascript"> JavaScript</label>
+
+<input type="button" onclick="checkAnswerQ6()" class="button" value="Отговори">
+</div>
+<input type="button" value="Предай" class="button1" style="text-align: center; margin-left: 43%;" onclick="close_window()">
+</body>
+</html>

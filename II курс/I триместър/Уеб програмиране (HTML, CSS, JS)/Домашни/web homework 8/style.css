@@ -1,0 +1,48 @@
+body{
+  background-image: url(calcwp.png);
+    background-position: center;
+    background-size: auto;
+}
+
+ .container{
+  opacity:0.5;
+    border-bottom: 5px solid #999;
+    border-left: 5px solid#999;
+    border-top: 5px solid #999;
+    border-right: 5px solid#999;
+    border-radius: 30px;
+    margin-left: 33%;
+    width: 500px;
+    height: 500px;
+    background-color: rgba(255,255,255,0.5);
+    
+  }
+  .elementsContainer{
+    margin-top: 5%;
+  }
+  h1{
+    margin-top: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+    text-align: center;
+  }
+  .textFields{
+    margin-left: 29%;
+  }
+  .textFields>*{margin: 5%;}
+  .textFields2{margin-top: 10%;
+    margin-right: 6%;
+    margin-left: 18%;
+  }
+  
+  .textFields2 input{
+    width: 100px;
+  }
+  label{
+    font-size: large ;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+ .container:hover{
+    opacity:1;
+  }

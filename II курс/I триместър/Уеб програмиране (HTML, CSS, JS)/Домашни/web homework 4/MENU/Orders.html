@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Поръчки</title>
+</head>
+    <body>
+        <div class="CI">
+        <h2>Поръчки:</h2>
+            <div class="grid-d-12">
+                <label for="login_email">Електронна поща <span class="required">*</span></label>
+                <input id="j_username" name="j_username" type="email" value="" autocomplete="off">
+            </div>
+
+            <div class="grid-d-4 grid-ts-6 grid-m-12">
+                <label for="addressFirstName">Име<span class="required"> *</span></label>
+                <input id="addressFirstName" name="firstName" type="text" value=""><span class="form-error"></span>
+            </div>
+
+            <div class="grid-d-4 grid-ts-6 grid-m-12">
+                <label for="addressLastName">Фамилия<span class="required"> *</span></label>
+                <input id="addressLastName" name="lastName" type="text" value=""><span class="form-error"></span>
+            </div>
+
+            <div class="grid-d-4 grid-ts-6 grid-m-12">
+                <label for="addressProductName">Име на продукта<span class="required"> *</span></label>
+                <input id="addressProductname" name="ProductName" type="text" value=""><span class="form-error"></span>
+            </div>
+
+            <div class="justify-content__item">
+                <button type="submit" class="button button--alt button--save"><span>Запазване</span></button>
+                <button type="reset" class="button button--alt button--alt-blue button--reject" onclick="$('#add_address').addClass('el-hide'); $('#add_address_button').removeClass('el-hide');"><span>Отказ</span></button>
+            </div> 
+        </div>   
+    </body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="urf-8">
+        <title>БОБ-2</title>
+        <style>
+            .bob{text-align:center;
+                line-height: 50px;
+                color:yellow;
+                position:absolute;
+                top:0px;
+                left:0px;
+                width:50px;
+                height:50px;
+                background: red;}
+        </style>
+
+        <script>
+            function kbcode(e){//alert(d);
+                bob.innerHTML = e.keyCode;}
+            function bobmove(e){
+                d = e.keyCode;
+                if (d == 39)
+                bob.style.left = (parseInt(bob.style.left) + 50) + "px";
+            }
+            //document.onkeydown = kbcode
+            addEventListener("keydown",kbcode)
+            addEventListener("keydown",bobmove)
+        </script>
+    </head>
+    <body>
+        <div class="bob" id="bob"></div>
+    </body>
+</html>

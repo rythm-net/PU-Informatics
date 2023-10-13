@@ -1,0 +1,18 @@
+.container{
+    width: 840px;
+    height: 840px;
+    background-color:green;
+    margin-left: 25%;
+}
+.col-1{float: left;}
+div[name="block"]{width: 200px;
+    height: 200px;
+    background-color: rgb(231, 216, 216);
+    border-bottom: 5px solid #999;
+    border-left: 5px solid#999;
+    border-top: 5px solid #999;
+    border-right: 5px solid#999;
+    font-size: 50px;
+    text-align: center;
+    float: left;
+}
