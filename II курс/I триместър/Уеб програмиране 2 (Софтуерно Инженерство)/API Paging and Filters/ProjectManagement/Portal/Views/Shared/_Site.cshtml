@@ -1,0 +1,27 @@
+﻿@using Microsoft.AspNetCore.Http;
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewData["Title"]</title>
+</head>
+<body>
+    <h1>Project Management</h1>
+    <hr />
+    <a href="/Home/Index">HOME</a>
+@if (String.IsNullOrEmpty(this.ViewContext.HttpContext.Session.GetString("loggedUserId")))
+{
+    <a href="/Home/Login">LOGIN</a>
+}
+else
+{
+    <a href="/Users/Index">USERS</a>
+    <a href="/Home/Logout">LOGOUT</a>
+}
+    <hr />
+    <div>
+        @RenderBody()
+    </div>
+</body>
+</html>
