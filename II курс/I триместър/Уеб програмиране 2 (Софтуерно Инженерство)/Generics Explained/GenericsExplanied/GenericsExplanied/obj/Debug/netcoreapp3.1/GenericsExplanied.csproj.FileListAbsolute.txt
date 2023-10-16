@@ -1,0 +1,13 @@
+D:\onedrive\2022-asp-net-core-training\other\generics-explained\GenericsExplanied\GenericsExplanied\bin\Debug\netcoreapp3.1\GenericsExplanied.exe
+D:\onedrive\2022-asp-net-core-training\other\generics-explained\GenericsExplanied\GenericsExplanied\bin\Debug\netcoreapp3.1\GenericsExplanied.deps.json
+D:\onedrive\2022-asp-net-core-training\other\generics-explained\GenericsExplanied\GenericsExplanied\bin\Debug\netcoreapp3.1\GenericsExplanied.runtimeconfig.json
+D:\onedrive\2022-asp-net-core-training\other\generics-explained\GenericsExplanied\GenericsExplanied\bin\Debug\netcoreapp3.1\GenericsExplanied.runtimeconfig.dev.json
+D:\onedrive\2022-asp-net-core-training\other\generics-explained\GenericsExplanied\GenericsExplanied\bin\Debug\netcoreapp3.1\GenericsExplanied.dll
+D:\onedrive\2022-asp-net-core-training\other\generics-explained\GenericsExplanied\GenericsExplanied\bin\Debug\netcoreapp3.1\GenericsExplanied.pdb
+D:\onedrive\2022-asp-net-core-training\other\generics-explained\GenericsExplanied\GenericsExplanied\obj\Debug\netcoreapp3.1\GenericsExplanied.csprojAssemblyReference.cache
+D:\onedrive\2022-asp-net-core-training\other\generics-explained\GenericsExplanied\GenericsExplanied\obj\Debug\netcoreapp3.1\GenericsExplanied.AssemblyInfoInputs.cache
+D:\onedrive\2022-asp-net-core-training\other\generics-explained\GenericsExplanied\GenericsExplanied\obj\Debug\netcoreapp3.1\GenericsExplanied.AssemblyInfo.cs
+D:\onedrive\2022-asp-net-core-training\other\generics-explained\GenericsExplanied\GenericsExplanied\obj\Debug\netcoreapp3.1\GenericsExplanied.csproj.CoreCompileInputs.cache
+D:\onedrive\2022-asp-net-core-training\other\generics-explained\GenericsExplanied\GenericsExplanied\obj\Debug\netcoreapp3.1\GenericsExplanied.dll
+D:\onedrive\2022-asp-net-core-training\other\generics-explained\GenericsExplanied\GenericsExplanied\obj\Debug\netcoreapp3.1\GenericsExplanied.pdb
+D:\onedrive\2022-asp-net-core-training\other\generics-explained\GenericsExplanied\GenericsExplanied\obj\Debug\netcoreapp3.1\GenericsExplanied.genruntimeconfig.cache

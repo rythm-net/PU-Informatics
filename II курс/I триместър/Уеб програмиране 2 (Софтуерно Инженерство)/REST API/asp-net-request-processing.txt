@@ -1,0 +1,39 @@
+browser -> HTTP Request -> ASP.NET Core MVC  ->  Instantiates a instance of the class  ->  Calls the requested Action  ->
+           /Home/Index     controller: Home             HomeController                            Index
+                           action:     Index
+                            spawns a thred to
+                            process the request
+
+
+
+->  The framework takes the result from the called action  -> The framework renders output based on the IActionResult instance
+           IActionResult
+
+
+
+
+User
+  Id
+  Username
+  FirstName
+  LastName
+
+
+
+User() {
+  Id = 1,
+  Username = "nvalchanov",
+  FirstName = "Nikola",
+  LastName = "Valchanov"
+};
+
+
+{
+  "Id": 1,
+  "Username": "nvalcanov",
+  "Password": "password",
+  "FirstName": "Nikola",
+  "LastName": "Valchanov"
+}
+
+[]

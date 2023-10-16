@@ -1,0 +1,21 @@
+Browser   Users/Index   Server
+       ---------------->
+
+1. Find a class with the name "UsersController"
+2. Find a method in the class "UsersController" with the name Index
+3. If this method is annotated with Ex: HttpPost check the type of request and reject the call if the request type is not supported
+
+Type t = Assembly.GetExecutingAssembly().GetType("HomeController");
+Object c = Activator.CreateInstance(t, null);
+MethodInfo mi = t.GetMethod("Index");
+mi.Invoke(c, null)
+   HEAP
+|        |
+|--------|------ c
+|        |
+|        |
+|        |
+|        |
+|        |
+|--------|------
+|        |

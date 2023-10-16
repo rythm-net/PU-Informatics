@@ -1,0 +1,13 @@
+D:\onedrive\2022-asp-net-core-training\other\value-vs-reference-types\ProgrammingBasics\ProgrammingBasics\bin\Debug\netcoreapp3.1\ProgrammingBasics.exe
+D:\onedrive\2022-asp-net-core-training\other\value-vs-reference-types\ProgrammingBasics\ProgrammingBasics\bin\Debug\netcoreapp3.1\ProgrammingBasics.deps.json
+D:\onedrive\2022-asp-net-core-training\other\value-vs-reference-types\ProgrammingBasics\ProgrammingBasics\bin\Debug\netcoreapp3.1\ProgrammingBasics.runtimeconfig.json
+D:\onedrive\2022-asp-net-core-training\other\value-vs-reference-types\ProgrammingBasics\ProgrammingBasics\bin\Debug\netcoreapp3.1\ProgrammingBasics.runtimeconfig.dev.json
+D:\onedrive\2022-asp-net-core-training\other\value-vs-reference-types\ProgrammingBasics\ProgrammingBasics\bin\Debug\netcoreapp3.1\ProgrammingBasics.dll
+D:\onedrive\2022-asp-net-core-training\other\value-vs-reference-types\ProgrammingBasics\ProgrammingBasics\bin\Debug\netcoreapp3.1\ProgrammingBasics.pdb
+D:\onedrive\2022-asp-net-core-training\other\value-vs-reference-types\ProgrammingBasics\ProgrammingBasics\obj\Debug\netcoreapp3.1\ProgrammingBasics.csprojAssemblyReference.cache
+D:\onedrive\2022-asp-net-core-training\other\value-vs-reference-types\ProgrammingBasics\ProgrammingBasics\obj\Debug\netcoreapp3.1\ProgrammingBasics.AssemblyInfoInputs.cache
+D:\onedrive\2022-asp-net-core-training\other\value-vs-reference-types\ProgrammingBasics\ProgrammingBasics\obj\Debug\netcoreapp3.1\ProgrammingBasics.AssemblyInfo.cs
+D:\onedrive\2022-asp-net-core-training\other\value-vs-reference-types\ProgrammingBasics\ProgrammingBasics\obj\Debug\netcoreapp3.1\ProgrammingBasics.csproj.CoreCompileInputs.cache
+D:\onedrive\2022-asp-net-core-training\other\value-vs-reference-types\ProgrammingBasics\ProgrammingBasics\obj\Debug\netcoreapp3.1\ProgrammingBasics.dll
+D:\onedrive\2022-asp-net-core-training\other\value-vs-reference-types\ProgrammingBasics\ProgrammingBasics\obj\Debug\netcoreapp3.1\ProgrammingBasics.pdb
+D:\onedrive\2022-asp-net-core-training\other\value-vs-reference-types\ProgrammingBasics\ProgrammingBasics\obj\Debug\netcoreapp3.1\ProgrammingBasics.genruntimeconfig.cache

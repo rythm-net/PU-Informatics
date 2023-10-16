@@ -1,0 +1,11 @@
+D:\onedrive\2022-asp-net-core-training\other\automapper\ProjectManagement\Common\bin\Debug\netcoreapp3.1\Common.deps.json
+D:\onedrive\2022-asp-net-core-training\other\automapper\ProjectManagement\Common\bin\Debug\netcoreapp3.1\Common.runtimeconfig.json
+D:\onedrive\2022-asp-net-core-training\other\automapper\ProjectManagement\Common\bin\Debug\netcoreapp3.1\Common.runtimeconfig.dev.json
+D:\onedrive\2022-asp-net-core-training\other\automapper\ProjectManagement\Common\bin\Debug\netcoreapp3.1\Common.dll
+D:\onedrive\2022-asp-net-core-training\other\automapper\ProjectManagement\Common\bin\Debug\netcoreapp3.1\Common.pdb
+D:\onedrive\2022-asp-net-core-training\other\automapper\ProjectManagement\Common\obj\Debug\netcoreapp3.1\Common.AssemblyInfoInputs.cache
+D:\onedrive\2022-asp-net-core-training\other\automapper\ProjectManagement\Common\obj\Debug\netcoreapp3.1\Common.AssemblyInfo.cs
+D:\onedrive\2022-asp-net-core-training\other\automapper\ProjectManagement\Common\obj\Debug\netcoreapp3.1\Common.csproj.CoreCompileInputs.cache
+D:\onedrive\2022-asp-net-core-training\other\automapper\ProjectManagement\Common\obj\Debug\netcoreapp3.1\Common.dll
+D:\onedrive\2022-asp-net-core-training\other\automapper\ProjectManagement\Common\obj\Debug\netcoreapp3.1\Common.pdb
+D:\onedrive\2022-asp-net-core-training\other\automapper\ProjectManagement\Common\obj\Debug\netcoreapp3.1\Common.genruntimeconfig.cache

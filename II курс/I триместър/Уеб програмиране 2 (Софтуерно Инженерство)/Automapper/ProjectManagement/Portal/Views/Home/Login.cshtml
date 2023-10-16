@@ -1,0 +1,29 @@
+﻿@model Portal.ViewModels.Home.LoginVM
+@{ 
+    Layout = "/Views/Shared/_Site.cshtml";
+    ViewData["Title"] = "LOGIN";
+}
+<form action="/Home/Login" method="post">
+    <table>
+        <tr>
+            <td>@Html.LabelFor(m => m.Username):</td>
+            <td>@Html.TextBoxFor(m => m.Username)</td>
+            <td>@Html.ValidationMessageFor(m => m.Username)</td>
+        </tr>
+        <tr>
+            <td>@Html.LabelFor(m => m.Password):</td>
+            <td>@Html.PasswordFor(m => m.Password)</td>
+            <td>@Html.ValidationMessageFor(m => m.Password)</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>@Html.ValidationMessage("authError")</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input style="float:right" type="submit" value="Login" /></td>
+            <td></td>
+        </tr>
+    </table>
+</form>

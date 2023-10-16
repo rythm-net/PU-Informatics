@@ -1,0 +1,27 @@
+﻿@model Portal.ViewModels.Users.IndexVM
+@using Common.Entities;
+@{ 
+    Layout = "/Views/Shared/_Site.cshtml";
+    ViewData["Title"] = "USERS";
+}
+<a href="/Users/Create">NEW</a>
+<table>
+    <tr>
+        <td>Username</td>
+        <td>First Name</td>
+        <td>Last Name</td>
+        <td></td>
+    </tr>
+@foreach(User item in Model.Items)
+{
+    <tr>
+        <td>@item.Username</td>
+        <td>@item.FirstName</td>
+        <td>@item.LastName</td>
+        <td>
+            <a href="/Users/Edit?id=@item.Id">edit</a>
+            <a href="/Users/Delete?id=@item.Id">delete</a>
+        </td>
+    </tr>
+}
+</table>

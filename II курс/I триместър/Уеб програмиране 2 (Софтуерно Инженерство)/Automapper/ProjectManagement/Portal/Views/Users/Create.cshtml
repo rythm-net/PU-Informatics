@@ -1,0 +1,37 @@
+﻿@model Portal.ViewModels.Users.CreateVM
+@{
+    Layout = "/Views/Shared/_Site.cshtml";
+    ViewData["Title"] = "CREATE USER";
+}
+<form action="/Users/Create" method="post">
+    <table>
+        <tr>
+            <td>@Html.LabelFor(m => m.Username):</td>
+            <td>@Html.TextBoxFor(m => m.Username)</td>
+            <td>@Html.ValidationMessageFor(m => m.Username)</td>
+        </tr>
+        <tr>
+            <td>@Html.LabelFor(m => m.Password):</td>
+            <td>@Html.PasswordFor(m => m.Password)</td>
+            <td>@Html.ValidationMessageFor(m => m.Password)</td>
+        </tr>
+        <tr>
+            <td>@Html.LabelFor(m => m.FirstName):</td>
+            <td>@Html.TextBoxFor(m => m.FirstName)</td>
+            <td>@Html.ValidationMessageFor(m => m.FirstName)</td>
+        </tr>
+        <tr>
+            <td>@Html.LabelFor(m => m.LastName):</td>
+            <td>@Html.TextBoxFor(m => m.LastName)</td>
+            <td>@Html.ValidationMessageFor(m => m.LastName)</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <a href="/Users/Index">back</a>
+                <input style="float:right" type="submit" value="Save" />
+            </td>
+            <td></td>
+        </tr>
+    </table>
+</form>
