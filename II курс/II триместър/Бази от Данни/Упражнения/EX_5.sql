@@ -1,0 +1,113 @@
+/*Създайте изглед, който съдържа имената, месечните заплати и номерата
+ на отделите на всички служители*/
+ CREATE VIEW EMPL_VIEW
+ AS
+ SELECT FNAME + ' ' +  LNAME AS EMPLOYEE, SALARY/12 AS MONTH_SALARY ,DEPARTMENT_ID
+ FROM EMPLOYEES
+
+ SELECT * 
+ FROM EMPL_VIEW
+
+ --VIEW WITH EMPLOYEES OF DEPARTMET_ID 80
+ CREATE VIEW EMPL_VIEW_80
+ AS
+ SELECT FNAME + ' ' +  LNAME AS EMPLOYEE, SALARY/12 AS MONTH_SALARY ,DEPARTMENT_ID
+ FROM EMPLOYEES
+ WHERE DEPARTMENT_ID = 80
+
+ SELECT *
+ FROM EMPL_VIEW_80
+
+ SELECT *
+ FROM EMPLOYEES
+ WHERE FNAME = 'Tayler' AND LNAME = 'Fox'
+
+ UPDATE EMPL_VIEW_80
+ SET DEPARTMENT_ID = 1000
+ WHERE EMPLOYEE = 'Tayler Fox'
+ 
+
+ --VIEW WITH EMPLOYEES OF DEPARTMET_ID 1000 WITH CHECK OPTION
+ CREATE VIEW EMPL_VIEW_1000
+ AS
+ SELECT FNAME + ' ' +  LNAME AS EMPLOYEE, SALARY/12 AS MONTH_SALARY ,DEPARTMENT_ID
+ FROM EMPLOYEES
+ WHERE DEPARTMENT_ID = 1000
+ WITH CHECK OPTION
+
+ SELECT *
+ FROM EMPL_VIEW_1000
+
+ SELECT *
+ FROM EMPLOYEES
+ WHERE FNAME = 'Tayler' AND LNAME = 'Fox'
+
+ --WE CAN'T UPDATE 
+ UPDATE EMPL_VIEW_1000
+ SET DEPARTMENT_ID = 80
+ WHERE EMPLOYEE = 'Tayler Fox'
+
+ --WE CAN UPDATE ONLY FROM BASE TABLE 
+ UPDATE EMPLOYEES
+ SET DEPARTMENT_ID = 80 
+ WHERE FNAME = 'Tayler' AND LNAME = 'Fox'
+
+/*Създайте изглед, който съдържа имената и общата стойност на поръчките,
+ обработени от мениджъри*/
+ CREATE VIEW MANAGER_ORD_VIEW
+ AS
+ SELECT FNAME  + ' ' + LNAME AS MANAGER, SUM(UNIT_PRICE * QUANTITY) AS TOTAL 
+ FROM EMPLOYEES E JOIN ORDERS O 
+ ON E.MANAGER_ID = O.EMPLOYEE_ID
+ JOIN ORDER_ITEMS OI 
+ ON O.ORDER_ID = OI.ORDER_ID
+ GROUP BY FNAME + ' ' + LNAME
+
+ SELECT *
+ FROM MANAGER_ORD_VIEW
+ 
+/*Създайте изглед, който съдържа наименованията на длъжностите и датите на 
+първия и последния назначен служител в тази длъжност*/
+CREATE VIEW JOB_VIEW
+AS
+SELECT JOB_TITLE, MIN(HIRE_DATE) AS MIN_DATE, MAX(HIRE_DATE) AS MAX_DATE
+FROM JOBS J JOIN EMPLOYEES E 
+ON J.JOB_ID = E.JOB_ID
+GROUP BY JOB_TITLE 
+
+SELECT *
+FROM JOB_VIEW
+
+/* Да се създаде изглед, който съдържа номерата на поръчките, датата им,
+ името на клиента, направил поръчката.*/
+ CREATE VIEW ORD_CUST_VIEW
+ AS
+ SELECT ORDER_ID, ORDER_DATE, FNAME + ' ' + LNAME AS CUSTOMER
+ FROM CUSTOMERS C JOIN ORDERS O 
+ ON C.CUSTOMER_ID = O.CUSTOMER_ID
+
+ SELECT * 
+ FROM ORD_CUST_VIEW
+
+/* Създайте изглед, който съдържа номера на служителите, имената на 
+отделите им и броя поръчки направени от съответния служител. Нека
+да участват и служителите, които не са обработвали поръчки*/
+CREATE VIEW EMP_DEP_ORD_VIEW
+AS
+SELECT E.EMPLOYEE_ID, NAME, COUNT(ORDER_ID) AS TOTAL 
+FROM EMPLOYEES E JOIN DEPARTMENTS D 
+ON E.DEPARTMENT_ID = D.DEPARTMENT_ID
+LEFT JOIN ORDERS O 
+ON E.EMPLOYEE_ID = O.EMPLOYEE_ID
+GROUP BY E.EMPLOYEE_ID, NAME
+
+SELECT *
+FROM EMP_DEP_ORD_VIEW
+
+/*Изведете имената и заплатите на всички служители, които получават заплата 
+по-голяма от средната заплата на отдела, в който работят*/
+SELECT FNAME + ' ' + LNAME AS EMPLOYEE, SALARY 
+FROM EMPLOYEES  E 
+WHERE SALARY > (SELECT AVG(SALARY)
+				FROM EMPLOYEES EM 
+				WHERE EM.DEPARTMENT_ID = E.DEPARTMENT_ID)
