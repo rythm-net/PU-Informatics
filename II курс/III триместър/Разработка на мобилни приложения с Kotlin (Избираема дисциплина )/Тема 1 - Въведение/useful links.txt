@@ -1,0 +1,8 @@
+Abdroid - https://www.android.com/
+
+Android Studio - https://developer.android.com/studio
+
+Kotlin - https://kotlinlang.org/
+
+Flutter - https://flutter.dev/
+

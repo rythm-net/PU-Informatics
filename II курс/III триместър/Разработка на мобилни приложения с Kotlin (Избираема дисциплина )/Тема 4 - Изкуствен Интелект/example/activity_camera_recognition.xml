@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CameraRecognitionActivity">
+
+    <Button
+        android:id="@+id/camera_capture_button"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="32dp"
+        android:elevation="2dp"
+        android:scaleType="fitCenter"
+        android:text="@string/take_photo"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view_finder" />
+
+    <androidx.camera.view.PreviewView
+        android:id="@+id/view_finder"
+        android:layout_width="0dp"
+        android:layout_height="180dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView"-->
+<!--        android:visibility="gone"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="0dp"-->
+<!--        app:layout_constraintTop_toTopOf="@id/viewFinder"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/viewFinder"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/viewFinder"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/viewFinder" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
