@@ -2,7 +2,7 @@
 
 ### [Mind Map](https://mind42.com/public/e22d9527-1e31-4a20-be8b-aa83b21e4ea4)
 
-### TOPIC 1 - История на Компютърните Архитектури/Системи и Операционни Системи. Linux команди.
+### TOPIC 1 - История на Компютърните Архитектури / Системи и Операционни Системи. Linux команди.
 
 * [_КСК История_](https://www.youtube.com/watch?v=bwxM9O2Fq5Y)
 * [_КСК Команди_](https://www.youtube.com/watch?v=A753p5F_L4g)
