@@ -215,6 +215,8 @@ We can use the following operations when divide, these will take carre of expand
 
 Try: transfers between different values.
 
+<br>
+
 **Conditional and unconditional jumps**
 Label: indicates a memory location (code). It is written in the form: label:
 Unconditional jump: jmp place - performs an unconditional jump to a part of the code with the label place
@@ -223,7 +225,6 @@ Unconditional jump: jmp place - performs an unconditional jump to a part of the 
 
 This is a jump conditioned by state of one or more eflags bits. Only in this way is it possible to perform a direct branch of the program in Assembler. Therefore, before instructing conditional jump, we always instruct (e.g., CMP, TEST, etc.) to set the flag used. If the jump condition is not met, the program continues as if the jump instructions were not at all here. The conditional jump instructions always start with the letter J. Behind it is the abbreviation indicating on which bits of the eflags register the jump is dependent.
 
-<br>
 
 * JE / JZ label - jump, if equal, ZF = 1
 * JNE / JNZ Label - jump, if not equal, ZF = 0
@@ -270,18 +271,16 @@ end:
 
 <br>
 
-Memory Access:
-
 **Memory Addressing**
+
 The memory location indicates the value (address, directly or in the registry) that must be written in square brackets.
 
 **Attention!** In one instruction, you can only address memory once. This means that, for example, the command a = 33; you write normally as mov a, 33, but vice versa a = b; so simply can not write. There would be two addresses in one instruction.
 
-_Question: What instructions do a = b?_
-
-Assembler allows two addressing methods.
+<br>
 
 **Direct address**
+
 Direct addressing is where the addresses are known directly during translation, that is, when working with static or global variables (C language).
 
 MOV AH, [0x04F01A50] - forward the 8-bit AH register from the address specified by the number
@@ -306,6 +305,8 @@ _asm {
 
 If the thevar is a static or global variable, then both commands do the same, so the thevar variable is assigned to AX.
 
+<br>
+
 **Indirect address**
 
 In C (C ++), this addressing matches the pointers to values. While in direct addressing we know the exact address of the value of the variable already in translation, in indirect addressing we have this variable value address in another variable of the type of pointer to the value, so value of the pointer (for example byte size) is address (32bit) of this value (byte size) in memory. The general shape of the inverse address is [mem + reg1 + reg2 * size] (the equivalent is mem [reg1] [reg2 * size]), where size is constant (can only 1, 2, 4, 8) reg1, reg2 arbitrary 32-bit registers and mem is the direct addressing of the memory (some number), all items are optional.
@@ -319,10 +320,13 @@ _asm {
 }
 ```
 
+<br>
+
 **Reference and dereference**
 
 If only the names are specified in the instructions, the compiler must always convert it into a suitable shape because the name of variable itself in assembly does not mean anything. Each name entry is translated to the shape ptr name or offset name, which corresponds to the dereference and reference in C language. Except for jump instructions or function calls, the ptr instruction is used.
 
+<br>
 
 **Instructions lea**
 
@@ -332,6 +336,8 @@ The address calculation is performed during instruction decoding phase. This is 
 mov eax, a
 lea eax, [eax + 8 * eax]
 ```
+
+<br>
 
 **Conditional Jumps:**
 
@@ -405,6 +411,7 @@ When we call by value, we store specific values (can be read from memory). Due t
 <br>
 
 **Subroutine call itself**
+
 The EIP registers change when the call is made. Jump to the subroutine provides instructions:
 
 * CALL address - store the content of EIP at the top of the stack and fill this register with the address specified in the parameter (in the C language the subroutine name is directly evaluated to some address)
