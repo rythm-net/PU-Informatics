@@ -1,0 +1,50 @@
+Книги
+
+Светлин Наков, Веселин Колев и др., Принципи на програмирането със C#; https://introprogramming.info/intro-csharp-book/
+
+Наков С., В. Колев и колектив, Въведение в програмирането със C#, Фабер, Велико Търново, 2011; https://introprogramming.info/intro-csharp-book/read-online/
+
+Thomas Cormen, Charles Leiserson, Ronald Rivest, Clifford Stein, Introduction to Algorithms, Third Edition, MIT Press, 2009; 
+
+Michael McMillan, Data Structures and Algorithms Using C#, Cambridge University Press, 2007;
+
+Kurt Mehlhorn, Peter Sanders, Algorithms and Data Structures, The Basic Toolbox, 2007;
+
+Jeff, Edmonds, How to Think About Algorithms, Cambridge University Press, 2008;
+
+Амерал Л., Алгоритми и структури от данни в C++, Софтех, 2001.
+
+Brassard G., P. Bratley. Algorithmics, Theory and Practice, Prentice-Hall, New Jersey, 1988.
+
+Bentley J., Programming pearls, Addison-Wesley, 1986.
+
+__________________________________________________________________________________________
+
+Материали в MSDN
+
+https://docs.microsoft.com/en-us/previous-versions/ms379570(v=vs.80)
+https://docs.microsoft.com/en-us/previous-versions/ms379571(v=vs.80)
+https://docs.microsoft.com/en-us/previous-versions/ms379572(v=vs.80)
+https://docs.microsoft.com/en-us/previous-versions/ms379573(v=vs.80)
+https://docs.microsoft.com/en-us/previous-versions/ms379574(v=vs.80)
+https://docs.microsoft.com/en-us/previous-versions/ms379575(v=vs.80)
+
+__________________________________________________________________________________________
+
+Пакети за оптимизационни задачи
+
+Google OR Tools
+	https://developers.google.com/optimization/introduction/overview
+
+Concorde TSP Solver (concorde optimization tool)
+	http://www.math.uwaterloo.ca/tsp/concorde.html
+
+QAOA Quantum Approximation Alg. Optimization
+	https://gcg.or.rwth-aachen.de/
+
+__________________________________________________________________________________________
+
+Други
+
+https://www.cs.usfca.edu/~galles/visualization/DFS.html
+https://www.cs.usfca.edu/~galles/visualization/BFS.html
