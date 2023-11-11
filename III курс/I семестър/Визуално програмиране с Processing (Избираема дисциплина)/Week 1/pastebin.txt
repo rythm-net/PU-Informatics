@@ -1,0 +1,87 @@
+int x;
+int flagX = 1;
+int y;
+int flagY = 1;
+int playerX, playerY, movementSpeed;
+int squareSpeed = 1;
+float timer = 0;
+int counter = 1;
+boolean entered = true;
+
+void setup() {
+  size(420, 320);
+
+  background(0);
+
+  rectMode(CENTER);
+
+  x = width/2;
+  y = height/2;
+
+  playerX = 30;
+  playerY = height - 70;
+  movementSpeed = 5;
+}
+
+
+void draw() {
+  background(second() % 255, second() % 255, second());
+
+  textSize(20);
+  fill(255);
+  text("Timer: "+timer, width - 130, 20);
+
+  stroke(255, 0, 0);
+  strokeWeight(7);
+  fill(0, 0, 255);
+  square(x, y, 33);
+
+  if (x > width || x < 0) {
+    flagX *= -1*squareSpeed;
+  }
+  if (y > height || y < 0) {
+    flagY *= -1*squareSpeed;
+  }
+
+  x += flagX;
+  y += flagY;
+
+  if ((x > mouseX - 10 && x < mouseX + 10) && (y > mouseY - 10 && y < mouseY + 10)) {
+    stroke(255);
+    strokeWeight(22);
+    fill(255);
+  } else {
+    stroke(0, 255, 0);
+    strokeWeight(3);
+    fill(255, 255, 0);
+  }
+
+  circle(mouseX, mouseY, 33);
+
+  rect(playerX, playerY, 20, 50);
+
+  timer = millis() / 1000;
+
+  if(timer % 3 == 0 && entered) {
+    // squareSpeed += 1;
+    entered = false;
+    println("Hello world!");
+  } else if (timer % 3 != 0) {
+    entered = true; 
+  }
+
+}
+
+void keyPressed() {
+  if (key == 'a') {
+    playerX -= movementSpeed;
+  } else if (key == 'd') {
+    playerX += movementSpeed;
+  }
+
+  if (key == 'w') {
+    playerY -= movementSpeed;
+  } else if (key == 's') {
+    playerY += movementSpeed;
+  }
+}
