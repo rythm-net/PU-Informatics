@@ -1,11 +1,11 @@
-<h2 align="center">Programming with Java | Програмиране с Java</h2>
+<h2 align="center">Програмиране с Java | Programming with Java</h2>
 
-### Overall Information
+### Основна информация
 * Integrated Development Environment (IDE) - [**IntelliJ IDEA Ultimate**](https://www.jetbrains.com/idea/)
 * Java SE Development Kit - [**JDK™**](https://www.oracle.com/java/technologies/downloads/#jdk17-windows)
 * [**Course Project | Курсов Проект**](https://github.com/rythm-net/Cats-Programmers)
-* **10 Exercises**
-* **8 Homeworks**
+* **10 Упражнения**
+* **8 Домашни**
 ---
 ### Седмица 1 - Въведение в програмирането с Java
 #### [_**Упражнение**_](https://github.com/rythm-net/PU-Informatics/tree/main/I%20%D0%BA%D1%83%D1%80%D1%81/III%20%D1%82%D1%80%D0%B8%D0%BC%D0%B5%D1%81%D1%82%D1%8A%D1%80/%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%B8%D1%80%D0%B0%D0%BD%D0%B5%20%D0%BD%D0%B0%20Java/%D0%A3%D0%BF%D1%80%D0%B0%D0%B6%D0%BD%D0%B5%D0%BD%D0%B8%D1%8F/Exercise%2001) **/** [_**Домашно**_](https://github.com/rythm-net/PU-Informatics/tree/main/I%20%D0%BA%D1%83%D1%80%D1%81/III%20%D1%82%D1%80%D0%B8%D0%BC%D0%B5%D1%81%D1%82%D1%8A%D1%80/%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%B8%D1%80%D0%B0%D0%BD%D0%B5%20%D0%BD%D0%B0%20Java/%D0%94%D0%BE%D0%BC%D0%B0%D1%88%D0%BD%D0%B8/Homework%2001)
