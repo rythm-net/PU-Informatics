@@ -5,24 +5,22 @@ The project includes Design Pattern examples in Java
 
 
 ## Creational Patterns
-- 📦 **Factory method** [view](https://git.fmi.uni-plovdiv.bg/alexppetrov/design-patterns/-/tree/master/src/factorymethod)
-- 📦 **Abstract factory** [view](https://git.fmi.uni-plovdiv.bg/alexppetrov/design-patterns/-/tree/master/src/abstractfactory)
-- 📦 **Singleton** [view](https://git.fmi.uni-plovdiv.bg/alexppetrov/design-patterns/-/tree/master/src/singleton)
+- 📦 **Factory method** [view](https://github.com/rythm-net/PU-Informatics/tree/main/III%20%D0%BA%D1%83%D1%80%D1%81/II%20%D1%81%D0%B5%D0%BC%D0%B5%D1%81%D1%82%D1%8A%D1%80/%D0%A8%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D0%B8%20%D0%B7%D0%B0%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B8%D1%80%D0%B0%D0%BD%D0%B5%20Java/%D0%9F%D1%80%D0%B8%D0%BC%D0%B5%D1%80%D0%B8%20%D0%BD%D0%B0%20Java/src/factorymethod)
+- 📦 **Abstract factory** [view](https://github.com/rythm-net/PU-Informatics/tree/main/III%20%D0%BA%D1%83%D1%80%D1%81/II%20%D1%81%D0%B5%D0%BC%D0%B5%D1%81%D1%82%D1%8A%D1%80/%D0%A8%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D0%B8%20%D0%B7%D0%B0%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B8%D1%80%D0%B0%D0%BD%D0%B5%20Java/%D0%9F%D1%80%D0%B8%D0%BC%D0%B5%D1%80%D0%B8%20%D0%BD%D0%B0%20Java/src/abstractfactory)
+- 📦 **Singleton** [view](https://github.com/rythm-net/PU-Informatics/tree/main/III%20%D0%BA%D1%83%D1%80%D1%81/II%20%D1%81%D0%B5%D0%BC%D0%B5%D1%81%D1%82%D1%8A%D1%80/%D0%A8%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D0%B8%20%D0%B7%D0%B0%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B8%D1%80%D0%B0%D0%BD%D0%B5%20Java/%D0%9F%D1%80%D0%B8%D0%BC%D0%B5%D1%80%D0%B8%20%D0%BD%D0%B0%20Java/src/singleton)
 
 ## Structural Patterns
-- 🎲 **Adapter** [view](https://git.fmi.uni-plovdiv.bg/alexppetrov/design-patterns/-/tree/master/src/adapter)
-- 🎲 **Composite** [view](https://git.fmi.uni-plovdiv.bg/alexppetrov/design-patterns/-/tree/master/src/composite)
-- 🎲 **Decorator** [view](https://git.fmi.uni-plovdiv.bg/alexppetrov/design-patterns/-/tree/master/src/decorator)
-- 🎲 **Facade** [view](https://git.fmi.uni-plovdiv.bg/alexppetrov/design-patterns/-/tree/master/src/facade)
-- 🎲 **Proxy** [view](https://git.fmi.uni-plovdiv.bg/alexppetrov/design-patterns/-/tree/master/src/proxy)
+- 🎲 **Adapter** [view](https://github.com/rythm-net/PU-Informatics/tree/main/III%20%D0%BA%D1%83%D1%80%D1%81/II%20%D1%81%D0%B5%D0%BC%D0%B5%D1%81%D1%82%D1%8A%D1%80/%D0%A8%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D0%B8%20%D0%B7%D0%B0%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B8%D1%80%D0%B0%D0%BD%D0%B5%20Java/%D0%9F%D1%80%D0%B8%D0%BC%D0%B5%D1%80%D0%B8%20%D0%BD%D0%B0%20Java/src/adapter)
+- 🎲 **Composite** [view](https://github.com/rythm-net/PU-Informatics/tree/main/III%20%D0%BA%D1%83%D1%80%D1%81/II%20%D1%81%D0%B5%D0%BC%D0%B5%D1%81%D1%82%D1%8A%D1%80/%D0%A8%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D0%B8%20%D0%B7%D0%B0%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B8%D1%80%D0%B0%D0%BD%D0%B5%20Java/%D0%9F%D1%80%D0%B8%D0%BC%D0%B5%D1%80%D0%B8%20%D0%BD%D0%B0%20Java/src/composite)
+- 🎲 **Decorator** [view](https://github.com/rythm-net/PU-Informatics/tree/main/III%20%D0%BA%D1%83%D1%80%D1%81/II%20%D1%81%D0%B5%D0%BC%D0%B5%D1%81%D1%82%D1%8A%D1%80/%D0%A8%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D0%B8%20%D0%B7%D0%B0%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B8%D1%80%D0%B0%D0%BD%D0%B5%20Java/%D0%9F%D1%80%D0%B8%D0%BC%D0%B5%D1%80%D0%B8%20%D0%BD%D0%B0%20Java/src/decorator)
+- 🎲 **Facade** [view](https://github.com/rythm-net/PU-Informatics/tree/main/III%20%D0%BA%D1%83%D1%80%D1%81/II%20%D1%81%D0%B5%D0%BC%D0%B5%D1%81%D1%82%D1%8A%D1%80/%D0%A8%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D0%B8%20%D0%B7%D0%B0%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B8%D1%80%D0%B0%D0%BD%D0%B5%20Java/%D0%9F%D1%80%D0%B8%D0%BC%D0%B5%D1%80%D0%B8%20%D0%BD%D0%B0%20Java/src/facade)
+- 🎲 **Proxy** [view](https://github.com/rythm-net/PU-Informatics/tree/main/III%20%D0%BA%D1%83%D1%80%D1%81/II%20%D1%81%D0%B5%D0%BC%D0%B5%D1%81%D1%82%D1%8A%D1%80/%D0%A8%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D0%B8%20%D0%B7%D0%B0%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B8%D1%80%D0%B0%D0%BD%D0%B5%20Java/%D0%9F%D1%80%D0%B8%D0%BC%D0%B5%D1%80%D0%B8%20%D0%BD%D0%B0%20Java/src/proxy)
 
 ## Behavioral Patterns
 
-- ⚙ **Chain of responsibility** [view](https://git.fmi.uni-plovdiv.bg/alexppetrov/design-patterns/-/tree/master/src/chainofresponsibility)
-- ⚙ **Command** [view](https://git.fmi.uni-plovdiv.bg/alexppetrov/design-patterns/-/tree/master/src/command)
-- ⚙ **Iterator** [view](https://git.fmi.uni-plovdiv.bg/alexppetrov/design-patterns/-/tree/master/src/iterator)
-- ⚙ **Observer** [view](https://git.fmi.uni-plovdiv.bg/alexppetrov/design-patterns/-/tree/master/src/observer)
-- ⚙ **Strategy** [view](https://git.fmi.uni-plovdiv.bg/alexppetrov/design-patterns/-/tree/master/src/strategy)
-- ⚙ **Visitor** [view](https://git.fmi.uni-plovdiv.bg/alexppetrov/design-patterns/-/tree/master/src/visitor)
-
-
+- ⚙ **Chain of responsibility** [view](https://github.com/rythm-net/PU-Informatics/tree/main/III%20%D0%BA%D1%83%D1%80%D1%81/II%20%D1%81%D0%B5%D0%BC%D0%B5%D1%81%D1%82%D1%8A%D1%80/%D0%A8%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D0%B8%20%D0%B7%D0%B0%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B8%D1%80%D0%B0%D0%BD%D0%B5%20Java/%D0%9F%D1%80%D0%B8%D0%BC%D0%B5%D1%80%D0%B8%20%D0%BD%D0%B0%20Java/src/chainofresponsibility)
+- ⚙ **Command** [view](https://github.com/rythm-net/PU-Informatics/tree/main/III%20%D0%BA%D1%83%D1%80%D1%81/II%20%D1%81%D0%B5%D0%BC%D0%B5%D1%81%D1%82%D1%8A%D1%80/%D0%A8%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D0%B8%20%D0%B7%D0%B0%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B8%D1%80%D0%B0%D0%BD%D0%B5%20Java/%D0%9F%D1%80%D0%B8%D0%BC%D0%B5%D1%80%D0%B8%20%D0%BD%D0%B0%20Java/src/command)
+- ⚙ **Iterator** [view](https://github.com/rythm-net/PU-Informatics/tree/main/III%20%D0%BA%D1%83%D1%80%D1%81/II%20%D1%81%D0%B5%D0%BC%D0%B5%D1%81%D1%82%D1%8A%D1%80/%D0%A8%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D0%B8%20%D0%B7%D0%B0%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B8%D1%80%D0%B0%D0%BD%D0%B5%20Java/%D0%9F%D1%80%D0%B8%D0%BC%D0%B5%D1%80%D0%B8%20%D0%BD%D0%B0%20Java/src/iterator)
+- ⚙ **Observer** [view](https://github.com/rythm-net/PU-Informatics/tree/main/III%20%D0%BA%D1%83%D1%80%D1%81/II%20%D1%81%D0%B5%D0%BC%D0%B5%D1%81%D1%82%D1%8A%D1%80/%D0%A8%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D0%B8%20%D0%B7%D0%B0%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B8%D1%80%D0%B0%D0%BD%D0%B5%20Java/%D0%9F%D1%80%D0%B8%D0%BC%D0%B5%D1%80%D0%B8%20%D0%BD%D0%B0%20Java/src/observer)
+- ⚙ **Strategy** [view](https://github.com/rythm-net/PU-Informatics/tree/main/III%20%D0%BA%D1%83%D1%80%D1%81/II%20%D1%81%D0%B5%D0%BC%D0%B5%D1%81%D1%82%D1%8A%D1%80/%D0%A8%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D0%B8%20%D0%B7%D0%B0%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B8%D1%80%D0%B0%D0%BD%D0%B5%20Java/%D0%9F%D1%80%D0%B8%D0%BC%D0%B5%D1%80%D0%B8%20%D0%BD%D0%B0%20Java/src/strategy)
+- ⚙ **Visitor** [view](https://github.com/rythm-net/PU-Informatics/tree/main/III%20%D0%BA%D1%83%D1%80%D1%81/II%20%D1%81%D0%B5%D0%BC%D0%B5%D1%81%D1%82%D1%8A%D1%80/%D0%A8%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D0%B8%20%D0%B7%D0%B0%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B8%D1%80%D0%B0%D0%BD%D0%B5%20Java/%D0%9F%D1%80%D0%B8%D0%BC%D0%B5%D1%80%D0%B8%20%D0%BD%D0%B0%20Java/src/visitor)
