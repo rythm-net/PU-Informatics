@@ -3,4 +3,4 @@
 ### Основна информация
 * Преподавател - **д-р Деница Шаркова**
 * Упражнения - **1 група**
-* Learning English in the Cloud from Dr. Denitza Charkova - [**Link**](https://sites.google.com/site/englishfmiplovdiv/teachers/charkova?authuser=0)
+* English@FMI-Plovdiv - [**Link**](https://sites.google.com/site/englishfmiplovdiv/teachers/charkova?authuser=0)
