@@ -1,4 +1,4 @@
-<h2 align="center">Разработка на мобилни приложения с Kotlin | Mobile Application Development with Kotlin</h2>
+<h2 align="center">Разработка на мобилни приложения с Kotlin |<br>Mobile Application Development with Kotlin</h2>
 
 ### Основна информация
 * Преподавател (лекции) - **доц. д-р Владимир Вълканов**
