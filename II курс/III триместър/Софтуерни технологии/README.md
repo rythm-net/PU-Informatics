@@ -1,4 +1,4 @@
-<h2 align="center">Софтуерни технологии | Software Technologies</h2>
+<h2 align="center">Софтуерни технологи | Software Technologies</h2>
 
 ### Основна информация
 * Преподавател (лекции) - **доц. д-р Ася Стоянова**
