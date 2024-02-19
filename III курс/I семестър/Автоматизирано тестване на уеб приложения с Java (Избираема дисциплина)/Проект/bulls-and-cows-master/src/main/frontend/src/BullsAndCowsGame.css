@@ -1,0 +1,9 @@
+.BullsAndCowsGame-Table {
+  margin-left: auto;
+  margin-right: auto;
+  width: 10rem;
+}
+
+.BullsAndCowsGame-Number {
+  font-family: monospace;
+}
