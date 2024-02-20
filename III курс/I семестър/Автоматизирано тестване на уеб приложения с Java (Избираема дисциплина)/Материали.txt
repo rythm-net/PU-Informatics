@@ -1,7 +1,0 @@
-JUnit 5 - https://junit.org/junit5/
-
-Mockito framework site - https://site.mockito.org/
-
-AssertJ / Fluent assertions for java - https://joel-costigliola.github.io/assertj/
-
-spting initializr - https://start.spring.io/
