@@ -1,0 +1,14 @@
+C:\Users\FMI\source\repos\Day2\CMyStack\bin\Debug\netcoreapp3.1\CMyStack.exe
+C:\Users\FMI\source\repos\Day2\CMyStack\bin\Debug\netcoreapp3.1\CMyStack.deps.json
+C:\Users\FMI\source\repos\Day2\CMyStack\bin\Debug\netcoreapp3.1\CMyStack.runtimeconfig.json
+C:\Users\FMI\source\repos\Day2\CMyStack\bin\Debug\netcoreapp3.1\CMyStack.runtimeconfig.dev.json
+C:\Users\FMI\source\repos\Day2\CMyStack\bin\Debug\netcoreapp3.1\CMyStack.dll
+C:\Users\FMI\source\repos\Day2\CMyStack\bin\Debug\netcoreapp3.1\CMyStack.pdb
+C:\Users\FMI\source\repos\Day2\CMyStack\obj\Debug\netcoreapp3.1\CMyStack.csproj.AssemblyReference.cache
+C:\Users\FMI\source\repos\Day2\CMyStack\obj\Debug\netcoreapp3.1\CMyStack.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FMI\source\repos\Day2\CMyStack\obj\Debug\netcoreapp3.1\CMyStack.AssemblyInfoInputs.cache
+C:\Users\FMI\source\repos\Day2\CMyStack\obj\Debug\netcoreapp3.1\CMyStack.AssemblyInfo.cs
+C:\Users\FMI\source\repos\Day2\CMyStack\obj\Debug\netcoreapp3.1\CMyStack.csproj.CoreCompileInputs.cache
+C:\Users\FMI\source\repos\Day2\CMyStack\obj\Debug\netcoreapp3.1\CMyStack.dll
+C:\Users\FMI\source\repos\Day2\CMyStack\obj\Debug\netcoreapp3.1\CMyStack.pdb
+C:\Users\FMI\source\repos\Day2\CMyStack\obj\Debug\netcoreapp3.1\CMyStack.genruntimeconfig.cache

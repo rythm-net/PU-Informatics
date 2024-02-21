@@ -1,0 +1,14 @@
+\\VBOXSVR\tmp\m\Week9\Dijkstra\obj\Debug\netcoreapp3.1\Dijkstra.csproj.AssemblyReference.cache
+\\VBOXSVR\tmp\m\Week9\Dijkstra\obj\Debug\netcoreapp3.1\Dijkstra.GeneratedMSBuildEditorConfig.editorconfig
+\\VBOXSVR\tmp\m\Week9\Dijkstra\obj\Debug\netcoreapp3.1\Dijkstra.AssemblyInfoInputs.cache
+\\VBOXSVR\tmp\m\Week9\Dijkstra\obj\Debug\netcoreapp3.1\Dijkstra.AssemblyInfo.cs
+\\VBOXSVR\tmp\m\Week9\Dijkstra\obj\Debug\netcoreapp3.1\Dijkstra.csproj.CoreCompileInputs.cache
+\\VBOXSVR\tmp\m\Week9\Dijkstra\bin\Debug\netcoreapp3.1\Dijkstra.exe
+\\VBOXSVR\tmp\m\Week9\Dijkstra\bin\Debug\netcoreapp3.1\Dijkstra.deps.json
+\\VBOXSVR\tmp\m\Week9\Dijkstra\bin\Debug\netcoreapp3.1\Dijkstra.runtimeconfig.json
+\\VBOXSVR\tmp\m\Week9\Dijkstra\bin\Debug\netcoreapp3.1\Dijkstra.runtimeconfig.dev.json
+\\VBOXSVR\tmp\m\Week9\Dijkstra\bin\Debug\netcoreapp3.1\Dijkstra.dll
+\\VBOXSVR\tmp\m\Week9\Dijkstra\bin\Debug\netcoreapp3.1\Dijkstra.pdb
+\\VBOXSVR\tmp\m\Week9\Dijkstra\obj\Debug\netcoreapp3.1\Dijkstra.dll
+\\VBOXSVR\tmp\m\Week9\Dijkstra\obj\Debug\netcoreapp3.1\Dijkstra.pdb
+\\VBOXSVR\tmp\m\Week9\Dijkstra\obj\Debug\netcoreapp3.1\Dijkstra.genruntimeconfig.cache

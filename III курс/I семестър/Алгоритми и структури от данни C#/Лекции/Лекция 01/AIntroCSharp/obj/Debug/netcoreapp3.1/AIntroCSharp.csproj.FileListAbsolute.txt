@@ -1,0 +1,14 @@
+C:\Users\FMI\source\repos\Day1\AIntroCSharp\bin\Debug\netcoreapp3.1\AIntroCSharp.exe
+C:\Users\FMI\source\repos\Day1\AIntroCSharp\bin\Debug\netcoreapp3.1\AIntroCSharp.deps.json
+C:\Users\FMI\source\repos\Day1\AIntroCSharp\bin\Debug\netcoreapp3.1\AIntroCSharp.runtimeconfig.json
+C:\Users\FMI\source\repos\Day1\AIntroCSharp\bin\Debug\netcoreapp3.1\AIntroCSharp.runtimeconfig.dev.json
+C:\Users\FMI\source\repos\Day1\AIntroCSharp\bin\Debug\netcoreapp3.1\AIntroCSharp.dll
+C:\Users\FMI\source\repos\Day1\AIntroCSharp\bin\Debug\netcoreapp3.1\AIntroCSharp.pdb
+C:\Users\FMI\source\repos\Day1\AIntroCSharp\obj\Debug\netcoreapp3.1\AIntroCSharp.csproj.AssemblyReference.cache
+C:\Users\FMI\source\repos\Day1\AIntroCSharp\obj\Debug\netcoreapp3.1\AIntroCSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FMI\source\repos\Day1\AIntroCSharp\obj\Debug\netcoreapp3.1\AIntroCSharp.AssemblyInfoInputs.cache
+C:\Users\FMI\source\repos\Day1\AIntroCSharp\obj\Debug\netcoreapp3.1\AIntroCSharp.AssemblyInfo.cs
+C:\Users\FMI\source\repos\Day1\AIntroCSharp\obj\Debug\netcoreapp3.1\AIntroCSharp.csproj.CoreCompileInputs.cache
+C:\Users\FMI\source\repos\Day1\AIntroCSharp\obj\Debug\netcoreapp3.1\AIntroCSharp.dll
+C:\Users\FMI\source\repos\Day1\AIntroCSharp\obj\Debug\netcoreapp3.1\AIntroCSharp.pdb
+C:\Users\FMI\source\repos\Day1\AIntroCSharp\obj\Debug\netcoreapp3.1\AIntroCSharp.genruntimeconfig.cache

@@ -1,0 +1,14 @@
+C:\Users\FMI\source\repos\Day3\DGdcLcm\bin\Debug\netcoreapp3.1\DGdcLcm.exe
+C:\Users\FMI\source\repos\Day3\DGdcLcm\bin\Debug\netcoreapp3.1\DGdcLcm.deps.json
+C:\Users\FMI\source\repos\Day3\DGdcLcm\bin\Debug\netcoreapp3.1\DGdcLcm.runtimeconfig.json
+C:\Users\FMI\source\repos\Day3\DGdcLcm\bin\Debug\netcoreapp3.1\DGdcLcm.runtimeconfig.dev.json
+C:\Users\FMI\source\repos\Day3\DGdcLcm\bin\Debug\netcoreapp3.1\DGdcLcm.dll
+C:\Users\FMI\source\repos\Day3\DGdcLcm\bin\Debug\netcoreapp3.1\DGdcLcm.pdb
+C:\Users\FMI\source\repos\Day3\DGdcLcm\obj\Debug\netcoreapp3.1\DGdcLcm.csproj.AssemblyReference.cache
+C:\Users\FMI\source\repos\Day3\DGdcLcm\obj\Debug\netcoreapp3.1\DGdcLcm.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FMI\source\repos\Day3\DGdcLcm\obj\Debug\netcoreapp3.1\DGdcLcm.AssemblyInfoInputs.cache
+C:\Users\FMI\source\repos\Day3\DGdcLcm\obj\Debug\netcoreapp3.1\DGdcLcm.AssemblyInfo.cs
+C:\Users\FMI\source\repos\Day3\DGdcLcm\obj\Debug\netcoreapp3.1\DGdcLcm.csproj.CoreCompileInputs.cache
+C:\Users\FMI\source\repos\Day3\DGdcLcm\obj\Debug\netcoreapp3.1\DGdcLcm.dll
+C:\Users\FMI\source\repos\Day3\DGdcLcm\obj\Debug\netcoreapp3.1\DGdcLcm.pdb
+C:\Users\FMI\source\repos\Day3\DGdcLcm\obj\Debug\netcoreapp3.1\DGdcLcm.genruntimeconfig.cache

@@ -1,0 +1,14 @@
+C:\Users\FMI\source\repos\Week6\Hashtable\bin\Debug\netcoreapp3.1\Hashtable.exe
+C:\Users\FMI\source\repos\Week6\Hashtable\bin\Debug\netcoreapp3.1\Hashtable.deps.json
+C:\Users\FMI\source\repos\Week6\Hashtable\bin\Debug\netcoreapp3.1\Hashtable.runtimeconfig.json
+C:\Users\FMI\source\repos\Week6\Hashtable\bin\Debug\netcoreapp3.1\Hashtable.runtimeconfig.dev.json
+C:\Users\FMI\source\repos\Week6\Hashtable\bin\Debug\netcoreapp3.1\Hashtable.dll
+C:\Users\FMI\source\repos\Week6\Hashtable\bin\Debug\netcoreapp3.1\Hashtable.pdb
+C:\Users\FMI\source\repos\Week6\Hashtable\obj\Debug\netcoreapp3.1\Hashtable.csproj.AssemblyReference.cache
+C:\Users\FMI\source\repos\Week6\Hashtable\obj\Debug\netcoreapp3.1\Hashtable.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FMI\source\repos\Week6\Hashtable\obj\Debug\netcoreapp3.1\Hashtable.AssemblyInfoInputs.cache
+C:\Users\FMI\source\repos\Week6\Hashtable\obj\Debug\netcoreapp3.1\Hashtable.AssemblyInfo.cs
+C:\Users\FMI\source\repos\Week6\Hashtable\obj\Debug\netcoreapp3.1\Hashtable.csproj.CoreCompileInputs.cache
+C:\Users\FMI\source\repos\Week6\Hashtable\obj\Debug\netcoreapp3.1\Hashtable.dll
+C:\Users\FMI\source\repos\Week6\Hashtable\obj\Debug\netcoreapp3.1\Hashtable.pdb
+C:\Users\FMI\source\repos\Week6\Hashtable\obj\Debug\netcoreapp3.1\Hashtable.genruntimeconfig.cache

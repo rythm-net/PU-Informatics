@@ -1,0 +1,14 @@
+C:\Users\FMI\source\repos\Week7\BFS\bin\Debug\netcoreapp3.1\BFS.exe
+C:\Users\FMI\source\repos\Week7\BFS\bin\Debug\netcoreapp3.1\BFS.deps.json
+C:\Users\FMI\source\repos\Week7\BFS\bin\Debug\netcoreapp3.1\BFS.runtimeconfig.json
+C:\Users\FMI\source\repos\Week7\BFS\bin\Debug\netcoreapp3.1\BFS.runtimeconfig.dev.json
+C:\Users\FMI\source\repos\Week7\BFS\bin\Debug\netcoreapp3.1\BFS.dll
+C:\Users\FMI\source\repos\Week7\BFS\bin\Debug\netcoreapp3.1\BFS.pdb
+C:\Users\FMI\source\repos\Week7\BFS\obj\Debug\netcoreapp3.1\BFS.csproj.AssemblyReference.cache
+C:\Users\FMI\source\repos\Week7\BFS\obj\Debug\netcoreapp3.1\BFS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FMI\source\repos\Week7\BFS\obj\Debug\netcoreapp3.1\BFS.AssemblyInfoInputs.cache
+C:\Users\FMI\source\repos\Week7\BFS\obj\Debug\netcoreapp3.1\BFS.AssemblyInfo.cs
+C:\Users\FMI\source\repos\Week7\BFS\obj\Debug\netcoreapp3.1\BFS.csproj.CoreCompileInputs.cache
+C:\Users\FMI\source\repos\Week7\BFS\obj\Debug\netcoreapp3.1\BFS.dll
+C:\Users\FMI\source\repos\Week7\BFS\obj\Debug\netcoreapp3.1\BFS.pdb
+C:\Users\FMI\source\repos\Week7\BFS\obj\Debug\netcoreapp3.1\BFS.genruntimeconfig.cache

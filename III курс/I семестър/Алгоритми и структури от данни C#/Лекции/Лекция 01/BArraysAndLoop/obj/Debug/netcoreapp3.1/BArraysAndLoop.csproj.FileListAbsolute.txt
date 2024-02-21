@@ -1,0 +1,13 @@
+C:\Users\FMI\source\repos\Day1\BArraysAndLoop\bin\Debug\netcoreapp3.1\BArraysAndLoop.exe
+C:\Users\FMI\source\repos\Day1\BArraysAndLoop\bin\Debug\netcoreapp3.1\BArraysAndLoop.deps.json
+C:\Users\FMI\source\repos\Day1\BArraysAndLoop\bin\Debug\netcoreapp3.1\BArraysAndLoop.runtimeconfig.json
+C:\Users\FMI\source\repos\Day1\BArraysAndLoop\bin\Debug\netcoreapp3.1\BArraysAndLoop.runtimeconfig.dev.json
+C:\Users\FMI\source\repos\Day1\BArraysAndLoop\bin\Debug\netcoreapp3.1\BArraysAndLoop.dll
+C:\Users\FMI\source\repos\Day1\BArraysAndLoop\bin\Debug\netcoreapp3.1\BArraysAndLoop.pdb
+C:\Users\FMI\source\repos\Day1\BArraysAndLoop\obj\Debug\netcoreapp3.1\BArraysAndLoop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FMI\source\repos\Day1\BArraysAndLoop\obj\Debug\netcoreapp3.1\BArraysAndLoop.AssemblyInfoInputs.cache
+C:\Users\FMI\source\repos\Day1\BArraysAndLoop\obj\Debug\netcoreapp3.1\BArraysAndLoop.AssemblyInfo.cs
+C:\Users\FMI\source\repos\Day1\BArraysAndLoop\obj\Debug\netcoreapp3.1\BArraysAndLoop.csproj.CoreCompileInputs.cache
+C:\Users\FMI\source\repos\Day1\BArraysAndLoop\obj\Debug\netcoreapp3.1\BArraysAndLoop.dll
+C:\Users\FMI\source\repos\Day1\BArraysAndLoop\obj\Debug\netcoreapp3.1\BArraysAndLoop.pdb
+C:\Users\FMI\source\repos\Day1\BArraysAndLoop\obj\Debug\netcoreapp3.1\BArraysAndLoop.genruntimeconfig.cache

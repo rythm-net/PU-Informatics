@@ -1,0 +1,14 @@
+C:\Users\FMI\source\repos\Day2\BGenerics\bin\Debug\netcoreapp3.1\BGenerics.exe
+C:\Users\FMI\source\repos\Day2\BGenerics\bin\Debug\netcoreapp3.1\BGenerics.deps.json
+C:\Users\FMI\source\repos\Day2\BGenerics\bin\Debug\netcoreapp3.1\BGenerics.runtimeconfig.json
+C:\Users\FMI\source\repos\Day2\BGenerics\bin\Debug\netcoreapp3.1\BGenerics.runtimeconfig.dev.json
+C:\Users\FMI\source\repos\Day2\BGenerics\bin\Debug\netcoreapp3.1\BGenerics.dll
+C:\Users\FMI\source\repos\Day2\BGenerics\bin\Debug\netcoreapp3.1\BGenerics.pdb
+C:\Users\FMI\source\repos\Day2\BGenerics\obj\Debug\netcoreapp3.1\BGenerics.csproj.AssemblyReference.cache
+C:\Users\FMI\source\repos\Day2\BGenerics\obj\Debug\netcoreapp3.1\BGenerics.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FMI\source\repos\Day2\BGenerics\obj\Debug\netcoreapp3.1\BGenerics.AssemblyInfoInputs.cache
+C:\Users\FMI\source\repos\Day2\BGenerics\obj\Debug\netcoreapp3.1\BGenerics.AssemblyInfo.cs
+C:\Users\FMI\source\repos\Day2\BGenerics\obj\Debug\netcoreapp3.1\BGenerics.csproj.CoreCompileInputs.cache
+C:\Users\FMI\source\repos\Day2\BGenerics\obj\Debug\netcoreapp3.1\BGenerics.dll
+C:\Users\FMI\source\repos\Day2\BGenerics\obj\Debug\netcoreapp3.1\BGenerics.pdb
+C:\Users\FMI\source\repos\Day2\BGenerics\obj\Debug\netcoreapp3.1\BGenerics.genruntimeconfig.cache

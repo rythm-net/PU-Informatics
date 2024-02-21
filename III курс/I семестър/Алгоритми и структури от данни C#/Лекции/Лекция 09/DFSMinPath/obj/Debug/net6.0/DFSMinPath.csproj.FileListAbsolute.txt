@@ -1,0 +1,15 @@
+C:\Users\FMI\source\repos\Week9\DFSMinPath\bin\Debug\net6.0\DFSMinPath.exe
+C:\Users\FMI\source\repos\Week9\DFSMinPath\bin\Debug\net6.0\DFSMinPath.deps.json
+C:\Users\FMI\source\repos\Week9\DFSMinPath\bin\Debug\net6.0\DFSMinPath.runtimeconfig.json
+C:\Users\FMI\source\repos\Week9\DFSMinPath\bin\Debug\net6.0\DFSMinPath.dll
+C:\Users\FMI\source\repos\Week9\DFSMinPath\bin\Debug\net6.0\DFSMinPath.pdb
+C:\Users\FMI\source\repos\Week9\DFSMinPath\obj\Debug\net6.0\DFSMinPath.csproj.AssemblyReference.cache
+C:\Users\FMI\source\repos\Week9\DFSMinPath\obj\Debug\net6.0\DFSMinPath.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FMI\source\repos\Week9\DFSMinPath\obj\Debug\net6.0\DFSMinPath.AssemblyInfoInputs.cache
+C:\Users\FMI\source\repos\Week9\DFSMinPath\obj\Debug\net6.0\DFSMinPath.AssemblyInfo.cs
+C:\Users\FMI\source\repos\Week9\DFSMinPath\obj\Debug\net6.0\DFSMinPath.csproj.CoreCompileInputs.cache
+C:\Users\FMI\source\repos\Week9\DFSMinPath\obj\Debug\net6.0\DFSMinPath.dll
+C:\Users\FMI\source\repos\Week9\DFSMinPath\obj\Debug\net6.0\refint\DFSMinPath.dll
+C:\Users\FMI\source\repos\Week9\DFSMinPath\obj\Debug\net6.0\DFSMinPath.pdb
+C:\Users\FMI\source\repos\Week9\DFSMinPath\obj\Debug\net6.0\DFSMinPath.genruntimeconfig.cache
+C:\Users\FMI\source\repos\Week9\DFSMinPath\obj\Debug\net6.0\ref\DFSMinPath.dll

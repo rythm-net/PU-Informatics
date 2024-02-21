@@ -1,0 +1,14 @@
+C:\Users\FMI\source\repos\TreeTraversal\TreverseTrees\bin\Debug\netcoreapp3.1\TreverseTrees.exe
+C:\Users\FMI\source\repos\TreeTraversal\TreverseTrees\bin\Debug\netcoreapp3.1\TreverseTrees.deps.json
+C:\Users\FMI\source\repos\TreeTraversal\TreverseTrees\bin\Debug\netcoreapp3.1\TreverseTrees.runtimeconfig.json
+C:\Users\FMI\source\repos\TreeTraversal\TreverseTrees\bin\Debug\netcoreapp3.1\TreverseTrees.runtimeconfig.dev.json
+C:\Users\FMI\source\repos\TreeTraversal\TreverseTrees\bin\Debug\netcoreapp3.1\TreverseTrees.dll
+C:\Users\FMI\source\repos\TreeTraversal\TreverseTrees\bin\Debug\netcoreapp3.1\TreverseTrees.pdb
+C:\Users\FMI\source\repos\TreeTraversal\TreverseTrees\obj\Debug\netcoreapp3.1\TreverseTrees.csproj.AssemblyReference.cache
+C:\Users\FMI\source\repos\TreeTraversal\TreverseTrees\obj\Debug\netcoreapp3.1\TreverseTrees.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FMI\source\repos\TreeTraversal\TreverseTrees\obj\Debug\netcoreapp3.1\TreverseTrees.AssemblyInfoInputs.cache
+C:\Users\FMI\source\repos\TreeTraversal\TreverseTrees\obj\Debug\netcoreapp3.1\TreverseTrees.AssemblyInfo.cs
+C:\Users\FMI\source\repos\TreeTraversal\TreverseTrees\obj\Debug\netcoreapp3.1\TreverseTrees.csproj.CoreCompileInputs.cache
+C:\Users\FMI\source\repos\TreeTraversal\TreverseTrees\obj\Debug\netcoreapp3.1\TreverseTrees.dll
+C:\Users\FMI\source\repos\TreeTraversal\TreverseTrees\obj\Debug\netcoreapp3.1\TreverseTrees.pdb
+C:\Users\FMI\source\repos\TreeTraversal\TreverseTrees\obj\Debug\netcoreapp3.1\TreverseTrees.genruntimeconfig.cache

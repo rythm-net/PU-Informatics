@@ -1,0 +1,14 @@
+C:\Users\FMI\source\repos\Day2\AIntroOOP\bin\Debug\netcoreapp3.1\AIntroOOP.exe
+C:\Users\FMI\source\repos\Day2\AIntroOOP\bin\Debug\netcoreapp3.1\AIntroOOP.deps.json
+C:\Users\FMI\source\repos\Day2\AIntroOOP\bin\Debug\netcoreapp3.1\AIntroOOP.runtimeconfig.json
+C:\Users\FMI\source\repos\Day2\AIntroOOP\bin\Debug\netcoreapp3.1\AIntroOOP.runtimeconfig.dev.json
+C:\Users\FMI\source\repos\Day2\AIntroOOP\bin\Debug\netcoreapp3.1\AIntroOOP.dll
+C:\Users\FMI\source\repos\Day2\AIntroOOP\bin\Debug\netcoreapp3.1\AIntroOOP.pdb
+C:\Users\FMI\source\repos\Day2\AIntroOOP\obj\Debug\netcoreapp3.1\AIntroOOP.csproj.AssemblyReference.cache
+C:\Users\FMI\source\repos\Day2\AIntroOOP\obj\Debug\netcoreapp3.1\AIntroOOP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FMI\source\repos\Day2\AIntroOOP\obj\Debug\netcoreapp3.1\AIntroOOP.AssemblyInfoInputs.cache
+C:\Users\FMI\source\repos\Day2\AIntroOOP\obj\Debug\netcoreapp3.1\AIntroOOP.AssemblyInfo.cs
+C:\Users\FMI\source\repos\Day2\AIntroOOP\obj\Debug\netcoreapp3.1\AIntroOOP.csproj.CoreCompileInputs.cache
+C:\Users\FMI\source\repos\Day2\AIntroOOP\obj\Debug\netcoreapp3.1\AIntroOOP.dll
+C:\Users\FMI\source\repos\Day2\AIntroOOP\obj\Debug\netcoreapp3.1\AIntroOOP.pdb
+C:\Users\FMI\source\repos\Day2\AIntroOOP\obj\Debug\netcoreapp3.1\AIntroOOP.genruntimeconfig.cache

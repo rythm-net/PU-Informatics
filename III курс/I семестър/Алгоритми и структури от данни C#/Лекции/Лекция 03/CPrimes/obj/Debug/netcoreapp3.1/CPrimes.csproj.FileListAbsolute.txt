@@ -1,0 +1,14 @@
+C:\Users\FMI\source\repos\Day3\CPrimes\bin\Debug\netcoreapp3.1\CPrimes.exe
+C:\Users\FMI\source\repos\Day3\CPrimes\bin\Debug\netcoreapp3.1\CPrimes.deps.json
+C:\Users\FMI\source\repos\Day3\CPrimes\bin\Debug\netcoreapp3.1\CPrimes.runtimeconfig.json
+C:\Users\FMI\source\repos\Day3\CPrimes\bin\Debug\netcoreapp3.1\CPrimes.runtimeconfig.dev.json
+C:\Users\FMI\source\repos\Day3\CPrimes\bin\Debug\netcoreapp3.1\CPrimes.dll
+C:\Users\FMI\source\repos\Day3\CPrimes\bin\Debug\netcoreapp3.1\CPrimes.pdb
+C:\Users\FMI\source\repos\Day3\CPrimes\obj\Debug\netcoreapp3.1\CPrimes.csproj.AssemblyReference.cache
+C:\Users\FMI\source\repos\Day3\CPrimes\obj\Debug\netcoreapp3.1\CPrimes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FMI\source\repos\Day3\CPrimes\obj\Debug\netcoreapp3.1\CPrimes.AssemblyInfoInputs.cache
+C:\Users\FMI\source\repos\Day3\CPrimes\obj\Debug\netcoreapp3.1\CPrimes.AssemblyInfo.cs
+C:\Users\FMI\source\repos\Day3\CPrimes\obj\Debug\netcoreapp3.1\CPrimes.csproj.CoreCompileInputs.cache
+C:\Users\FMI\source\repos\Day3\CPrimes\obj\Debug\netcoreapp3.1\CPrimes.dll
+C:\Users\FMI\source\repos\Day3\CPrimes\obj\Debug\netcoreapp3.1\CPrimes.pdb
+C:\Users\FMI\source\repos\Day3\CPrimes\obj\Debug\netcoreapp3.1\CPrimes.genruntimeconfig.cache

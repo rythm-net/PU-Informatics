@@ -1,0 +1,14 @@
+C:\Users\FMI\source\repos\Day3\ARecursion\bin\Debug\netcoreapp3.1\ARecursion.exe
+C:\Users\FMI\source\repos\Day3\ARecursion\bin\Debug\netcoreapp3.1\ARecursion.deps.json
+C:\Users\FMI\source\repos\Day3\ARecursion\bin\Debug\netcoreapp3.1\ARecursion.runtimeconfig.json
+C:\Users\FMI\source\repos\Day3\ARecursion\bin\Debug\netcoreapp3.1\ARecursion.runtimeconfig.dev.json
+C:\Users\FMI\source\repos\Day3\ARecursion\bin\Debug\netcoreapp3.1\ARecursion.dll
+C:\Users\FMI\source\repos\Day3\ARecursion\bin\Debug\netcoreapp3.1\ARecursion.pdb
+C:\Users\FMI\source\repos\Day3\ARecursion\obj\Debug\netcoreapp3.1\ARecursion.csproj.AssemblyReference.cache
+C:\Users\FMI\source\repos\Day3\ARecursion\obj\Debug\netcoreapp3.1\ARecursion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FMI\source\repos\Day3\ARecursion\obj\Debug\netcoreapp3.1\ARecursion.AssemblyInfoInputs.cache
+C:\Users\FMI\source\repos\Day3\ARecursion\obj\Debug\netcoreapp3.1\ARecursion.AssemblyInfo.cs
+C:\Users\FMI\source\repos\Day3\ARecursion\obj\Debug\netcoreapp3.1\ARecursion.csproj.CoreCompileInputs.cache
+C:\Users\FMI\source\repos\Day3\ARecursion\obj\Debug\netcoreapp3.1\ARecursion.dll
+C:\Users\FMI\source\repos\Day3\ARecursion\obj\Debug\netcoreapp3.1\ARecursion.pdb
+C:\Users\FMI\source\repos\Day3\ARecursion\obj\Debug\netcoreapp3.1\ARecursion.genruntimeconfig.cache

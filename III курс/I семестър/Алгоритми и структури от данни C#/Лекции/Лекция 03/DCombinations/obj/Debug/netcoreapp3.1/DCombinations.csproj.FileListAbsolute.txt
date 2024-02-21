@@ -1,0 +1,13 @@
+C:\Users\FMI\source\repos\Day3\DCombinations\bin\Debug\netcoreapp3.1\DCombinations.exe
+C:\Users\FMI\source\repos\Day3\DCombinations\bin\Debug\netcoreapp3.1\DCombinations.deps.json
+C:\Users\FMI\source\repos\Day3\DCombinations\bin\Debug\netcoreapp3.1\DCombinations.runtimeconfig.json
+C:\Users\FMI\source\repos\Day3\DCombinations\bin\Debug\netcoreapp3.1\DCombinations.runtimeconfig.dev.json
+C:\Users\FMI\source\repos\Day3\DCombinations\bin\Debug\netcoreapp3.1\DCombinations.dll
+C:\Users\FMI\source\repos\Day3\DCombinations\bin\Debug\netcoreapp3.1\DCombinations.pdb
+C:\Users\FMI\source\repos\Day3\DCombinations\obj\Debug\netcoreapp3.1\DCombinations.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FMI\source\repos\Day3\DCombinations\obj\Debug\netcoreapp3.1\DCombinations.AssemblyInfoInputs.cache
+C:\Users\FMI\source\repos\Day3\DCombinations\obj\Debug\netcoreapp3.1\DCombinations.AssemblyInfo.cs
+C:\Users\FMI\source\repos\Day3\DCombinations\obj\Debug\netcoreapp3.1\DCombinations.csproj.CoreCompileInputs.cache
+C:\Users\FMI\source\repos\Day3\DCombinations\obj\Debug\netcoreapp3.1\DCombinations.dll
+C:\Users\FMI\source\repos\Day3\DCombinations\obj\Debug\netcoreapp3.1\DCombinations.pdb
+C:\Users\FMI\source\repos\Day3\DCombinations\obj\Debug\netcoreapp3.1\DCombinations.genruntimeconfig.cache

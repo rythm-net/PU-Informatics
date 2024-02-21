@@ -1,0 +1,14 @@
+C:\Users\FMI\source\repos\Day3\BHanoi\bin\Debug\netcoreapp3.1\BHanoi.exe
+C:\Users\FMI\source\repos\Day3\BHanoi\bin\Debug\netcoreapp3.1\BHanoi.deps.json
+C:\Users\FMI\source\repos\Day3\BHanoi\bin\Debug\netcoreapp3.1\BHanoi.runtimeconfig.json
+C:\Users\FMI\source\repos\Day3\BHanoi\bin\Debug\netcoreapp3.1\BHanoi.runtimeconfig.dev.json
+C:\Users\FMI\source\repos\Day3\BHanoi\bin\Debug\netcoreapp3.1\BHanoi.dll
+C:\Users\FMI\source\repos\Day3\BHanoi\bin\Debug\netcoreapp3.1\BHanoi.pdb
+C:\Users\FMI\source\repos\Day3\BHanoi\obj\Debug\netcoreapp3.1\BHanoi.csproj.AssemblyReference.cache
+C:\Users\FMI\source\repos\Day3\BHanoi\obj\Debug\netcoreapp3.1\BHanoi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FMI\source\repos\Day3\BHanoi\obj\Debug\netcoreapp3.1\BHanoi.AssemblyInfoInputs.cache
+C:\Users\FMI\source\repos\Day3\BHanoi\obj\Debug\netcoreapp3.1\BHanoi.AssemblyInfo.cs
+C:\Users\FMI\source\repos\Day3\BHanoi\obj\Debug\netcoreapp3.1\BHanoi.csproj.CoreCompileInputs.cache
+C:\Users\FMI\source\repos\Day3\BHanoi\obj\Debug\netcoreapp3.1\BHanoi.dll
+C:\Users\FMI\source\repos\Day3\BHanoi\obj\Debug\netcoreapp3.1\BHanoi.pdb
+C:\Users\FMI\source\repos\Day3\BHanoi\obj\Debug\netcoreapp3.1\BHanoi.genruntimeconfig.cache

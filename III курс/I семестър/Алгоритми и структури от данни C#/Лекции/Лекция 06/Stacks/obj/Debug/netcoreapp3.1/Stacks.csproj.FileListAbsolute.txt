@@ -1,0 +1,14 @@
+C:\Users\FMI\source\repos\Week6\Stacks\bin\Debug\netcoreapp3.1\Stacks.exe
+C:\Users\FMI\source\repos\Week6\Stacks\bin\Debug\netcoreapp3.1\Stacks.deps.json
+C:\Users\FMI\source\repos\Week6\Stacks\bin\Debug\netcoreapp3.1\Stacks.runtimeconfig.json
+C:\Users\FMI\source\repos\Week6\Stacks\bin\Debug\netcoreapp3.1\Stacks.runtimeconfig.dev.json
+C:\Users\FMI\source\repos\Week6\Stacks\bin\Debug\netcoreapp3.1\Stacks.dll
+C:\Users\FMI\source\repos\Week6\Stacks\bin\Debug\netcoreapp3.1\Stacks.pdb
+C:\Users\FMI\source\repos\Week6\Stacks\obj\Debug\netcoreapp3.1\Stacks.csproj.AssemblyReference.cache
+C:\Users\FMI\source\repos\Week6\Stacks\obj\Debug\netcoreapp3.1\Stacks.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FMI\source\repos\Week6\Stacks\obj\Debug\netcoreapp3.1\Stacks.AssemblyInfoInputs.cache
+C:\Users\FMI\source\repos\Week6\Stacks\obj\Debug\netcoreapp3.1\Stacks.AssemblyInfo.cs
+C:\Users\FMI\source\repos\Week6\Stacks\obj\Debug\netcoreapp3.1\Stacks.csproj.CoreCompileInputs.cache
+C:\Users\FMI\source\repos\Week6\Stacks\obj\Debug\netcoreapp3.1\Stacks.dll
+C:\Users\FMI\source\repos\Week6\Stacks\obj\Debug\netcoreapp3.1\Stacks.pdb
+C:\Users\FMI\source\repos\Week6\Stacks\obj\Debug\netcoreapp3.1\Stacks.genruntimeconfig.cache

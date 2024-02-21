@@ -1,0 +1,13 @@
+C:\Users\FMI\source\repos\Week7\DFS\bin\Debug\netcoreapp3.1\DFS.exe
+C:\Users\FMI\source\repos\Week7\DFS\bin\Debug\netcoreapp3.1\DFS.deps.json
+C:\Users\FMI\source\repos\Week7\DFS\bin\Debug\netcoreapp3.1\DFS.runtimeconfig.json
+C:\Users\FMI\source\repos\Week7\DFS\bin\Debug\netcoreapp3.1\DFS.runtimeconfig.dev.json
+C:\Users\FMI\source\repos\Week7\DFS\bin\Debug\netcoreapp3.1\DFS.dll
+C:\Users\FMI\source\repos\Week7\DFS\bin\Debug\netcoreapp3.1\DFS.pdb
+C:\Users\FMI\source\repos\Week7\DFS\obj\Debug\netcoreapp3.1\DFS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FMI\source\repos\Week7\DFS\obj\Debug\netcoreapp3.1\DFS.AssemblyInfoInputs.cache
+C:\Users\FMI\source\repos\Week7\DFS\obj\Debug\netcoreapp3.1\DFS.AssemblyInfo.cs
+C:\Users\FMI\source\repos\Week7\DFS\obj\Debug\netcoreapp3.1\DFS.csproj.CoreCompileInputs.cache
+C:\Users\FMI\source\repos\Week7\DFS\obj\Debug\netcoreapp3.1\DFS.dll
+C:\Users\FMI\source\repos\Week7\DFS\obj\Debug\netcoreapp3.1\DFS.pdb
+C:\Users\FMI\source\repos\Week7\DFS\obj\Debug\netcoreapp3.1\DFS.genruntimeconfig.cache

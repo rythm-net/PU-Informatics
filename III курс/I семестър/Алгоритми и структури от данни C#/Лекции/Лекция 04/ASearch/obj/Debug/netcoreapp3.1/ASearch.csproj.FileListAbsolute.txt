@@ -1,0 +1,14 @@
+C:\Users\FMI\source\repos\Week4\ASearch\bin\Debug\netcoreapp3.1\ASearch.exe
+C:\Users\FMI\source\repos\Week4\ASearch\bin\Debug\netcoreapp3.1\ASearch.deps.json
+C:\Users\FMI\source\repos\Week4\ASearch\bin\Debug\netcoreapp3.1\ASearch.runtimeconfig.json
+C:\Users\FMI\source\repos\Week4\ASearch\bin\Debug\netcoreapp3.1\ASearch.runtimeconfig.dev.json
+C:\Users\FMI\source\repos\Week4\ASearch\bin\Debug\netcoreapp3.1\ASearch.dll
+C:\Users\FMI\source\repos\Week4\ASearch\bin\Debug\netcoreapp3.1\ASearch.pdb
+C:\Users\FMI\source\repos\Week4\ASearch\obj\Debug\netcoreapp3.1\ASearch.csproj.AssemblyReference.cache
+C:\Users\FMI\source\repos\Week4\ASearch\obj\Debug\netcoreapp3.1\ASearch.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FMI\source\repos\Week4\ASearch\obj\Debug\netcoreapp3.1\ASearch.AssemblyInfoInputs.cache
+C:\Users\FMI\source\repos\Week4\ASearch\obj\Debug\netcoreapp3.1\ASearch.AssemblyInfo.cs
+C:\Users\FMI\source\repos\Week4\ASearch\obj\Debug\netcoreapp3.1\ASearch.csproj.CoreCompileInputs.cache
+C:\Users\FMI\source\repos\Week4\ASearch\obj\Debug\netcoreapp3.1\ASearch.dll
+C:\Users\FMI\source\repos\Week4\ASearch\obj\Debug\netcoreapp3.1\ASearch.pdb
+C:\Users\FMI\source\repos\Week4\ASearch\obj\Debug\netcoreapp3.1\ASearch.genruntimeconfig.cache

@@ -1,0 +1,15 @@
+/home/moni/src/PU/Lectures/2022-2023/ADS/Week8/ExpressionTree/bin/Debug/net6.0/ExpressionTree
+/home/moni/src/PU/Lectures/2022-2023/ADS/Week8/ExpressionTree/bin/Debug/net6.0/ExpressionTree.deps.json
+/home/moni/src/PU/Lectures/2022-2023/ADS/Week8/ExpressionTree/bin/Debug/net6.0/ExpressionTree.runtimeconfig.json
+/home/moni/src/PU/Lectures/2022-2023/ADS/Week8/ExpressionTree/bin/Debug/net6.0/ExpressionTree.dll
+/home/moni/src/PU/Lectures/2022-2023/ADS/Week8/ExpressionTree/bin/Debug/net6.0/ref/ExpressionTree.dll
+/home/moni/src/PU/Lectures/2022-2023/ADS/Week8/ExpressionTree/bin/Debug/net6.0/ExpressionTree.pdb
+/home/moni/src/PU/Lectures/2022-2023/ADS/Week8/ExpressionTree/obj/Debug/net6.0/ExpressionTree.csproj.AssemblyReference.cache
+/home/moni/src/PU/Lectures/2022-2023/ADS/Week8/ExpressionTree/obj/Debug/net6.0/ExpressionTree.GeneratedMSBuildEditorConfig.editorconfig
+/home/moni/src/PU/Lectures/2022-2023/ADS/Week8/ExpressionTree/obj/Debug/net6.0/ExpressionTree.AssemblyInfoInputs.cache
+/home/moni/src/PU/Lectures/2022-2023/ADS/Week8/ExpressionTree/obj/Debug/net6.0/ExpressionTree.AssemblyInfo.cs
+/home/moni/src/PU/Lectures/2022-2023/ADS/Week8/ExpressionTree/obj/Debug/net6.0/ExpressionTree.csproj.CoreCompileInputs.cache
+/home/moni/src/PU/Lectures/2022-2023/ADS/Week8/ExpressionTree/obj/Debug/net6.0/ExpressionTree.dll
+/home/moni/src/PU/Lectures/2022-2023/ADS/Week8/ExpressionTree/obj/Debug/net6.0/ref/ExpressionTree.dll
+/home/moni/src/PU/Lectures/2022-2023/ADS/Week8/ExpressionTree/obj/Debug/net6.0/ExpressionTree.pdb
+/home/moni/src/PU/Lectures/2022-2023/ADS/Week8/ExpressionTree/obj/Debug/net6.0/ExpressionTree.genruntimeconfig.cache

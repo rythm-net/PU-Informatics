@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32901.82
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BFS", "BFS\BFS.csproj", "{CA5A9653-C3EC-4918-98A4-025258E0C40C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DFS", "DFS\DFS.csproj", "{3C084CB6-4F95-4702-9E4D-2B22DF543DEB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA5A9653-C3EC-4918-98A4-025258E0C40C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA5A9653-C3EC-4918-98A4-025258E0C40C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA5A9653-C3EC-4918-98A4-025258E0C40C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA5A9653-C3EC-4918-98A4-025258E0C40C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C084CB6-4F95-4702-9E4D-2B22DF543DEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C084CB6-4F95-4702-9E4D-2B22DF543DEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C084CB6-4F95-4702-9E4D-2B22DF543DEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C084CB6-4F95-4702-9E4D-2B22DF543DEB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0D7E6F09-A8F7-4466-A635-A5EA96691E1C}
+	EndGlobalSection
+EndGlobal

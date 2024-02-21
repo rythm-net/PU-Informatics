@@ -1,0 +1,14 @@
+C:\Users\FMI\source\repos\Day3\EPermutations\bin\Debug\netcoreapp3.1\EPermutations.exe
+C:\Users\FMI\source\repos\Day3\EPermutations\bin\Debug\netcoreapp3.1\EPermutations.deps.json
+C:\Users\FMI\source\repos\Day3\EPermutations\bin\Debug\netcoreapp3.1\EPermutations.runtimeconfig.json
+C:\Users\FMI\source\repos\Day3\EPermutations\bin\Debug\netcoreapp3.1\EPermutations.runtimeconfig.dev.json
+C:\Users\FMI\source\repos\Day3\EPermutations\bin\Debug\netcoreapp3.1\EPermutations.dll
+C:\Users\FMI\source\repos\Day3\EPermutations\bin\Debug\netcoreapp3.1\EPermutations.pdb
+C:\Users\FMI\source\repos\Day3\EPermutations\obj\Debug\netcoreapp3.1\EPermutations.csproj.AssemblyReference.cache
+C:\Users\FMI\source\repos\Day3\EPermutations\obj\Debug\netcoreapp3.1\EPermutations.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FMI\source\repos\Day3\EPermutations\obj\Debug\netcoreapp3.1\EPermutations.AssemblyInfoInputs.cache
+C:\Users\FMI\source\repos\Day3\EPermutations\obj\Debug\netcoreapp3.1\EPermutations.AssemblyInfo.cs
+C:\Users\FMI\source\repos\Day3\EPermutations\obj\Debug\netcoreapp3.1\EPermutations.csproj.CoreCompileInputs.cache
+C:\Users\FMI\source\repos\Day3\EPermutations\obj\Debug\netcoreapp3.1\EPermutations.dll
+C:\Users\FMI\source\repos\Day3\EPermutations\obj\Debug\netcoreapp3.1\EPermutations.pdb
+C:\Users\FMI\source\repos\Day3\EPermutations\obj\Debug\netcoreapp3.1\EPermutations.genruntimeconfig.cache

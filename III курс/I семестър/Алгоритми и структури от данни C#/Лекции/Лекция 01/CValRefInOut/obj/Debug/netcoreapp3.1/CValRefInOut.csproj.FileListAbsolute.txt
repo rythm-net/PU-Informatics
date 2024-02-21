@@ -1,0 +1,14 @@
+C:\Users\FMI\source\repos\Day1\CValRefInOut\bin\Debug\netcoreapp3.1\CValRefInOut.exe
+C:\Users\FMI\source\repos\Day1\CValRefInOut\bin\Debug\netcoreapp3.1\CValRefInOut.deps.json
+C:\Users\FMI\source\repos\Day1\CValRefInOut\bin\Debug\netcoreapp3.1\CValRefInOut.runtimeconfig.json
+C:\Users\FMI\source\repos\Day1\CValRefInOut\bin\Debug\netcoreapp3.1\CValRefInOut.runtimeconfig.dev.json
+C:\Users\FMI\source\repos\Day1\CValRefInOut\bin\Debug\netcoreapp3.1\CValRefInOut.dll
+C:\Users\FMI\source\repos\Day1\CValRefInOut\bin\Debug\netcoreapp3.1\CValRefInOut.pdb
+C:\Users\FMI\source\repos\Day1\CValRefInOut\obj\Debug\netcoreapp3.1\CValRefInOut.csproj.AssemblyReference.cache
+C:\Users\FMI\source\repos\Day1\CValRefInOut\obj\Debug\netcoreapp3.1\CValRefInOut.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FMI\source\repos\Day1\CValRefInOut\obj\Debug\netcoreapp3.1\CValRefInOut.AssemblyInfoInputs.cache
+C:\Users\FMI\source\repos\Day1\CValRefInOut\obj\Debug\netcoreapp3.1\CValRefInOut.AssemblyInfo.cs
+C:\Users\FMI\source\repos\Day1\CValRefInOut\obj\Debug\netcoreapp3.1\CValRefInOut.csproj.CoreCompileInputs.cache
+C:\Users\FMI\source\repos\Day1\CValRefInOut\obj\Debug\netcoreapp3.1\CValRefInOut.dll
+C:\Users\FMI\source\repos\Day1\CValRefInOut\obj\Debug\netcoreapp3.1\CValRefInOut.pdb
+C:\Users\FMI\source\repos\Day1\CValRefInOut\obj\Debug\netcoreapp3.1\CValRefInOut.genruntimeconfig.cache

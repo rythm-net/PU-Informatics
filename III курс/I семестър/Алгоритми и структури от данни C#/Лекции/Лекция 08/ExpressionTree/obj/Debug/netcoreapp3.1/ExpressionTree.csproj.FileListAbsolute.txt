@@ -1,0 +1,14 @@
+C:\Users\FMI\source\repos\TreeTraversal\ExpressionTree\bin\Debug\netcoreapp3.1\ExpressionTree.exe
+C:\Users\FMI\source\repos\TreeTraversal\ExpressionTree\bin\Debug\netcoreapp3.1\ExpressionTree.deps.json
+C:\Users\FMI\source\repos\TreeTraversal\ExpressionTree\bin\Debug\netcoreapp3.1\ExpressionTree.runtimeconfig.json
+C:\Users\FMI\source\repos\TreeTraversal\ExpressionTree\bin\Debug\netcoreapp3.1\ExpressionTree.runtimeconfig.dev.json
+C:\Users\FMI\source\repos\TreeTraversal\ExpressionTree\bin\Debug\netcoreapp3.1\ExpressionTree.dll
+C:\Users\FMI\source\repos\TreeTraversal\ExpressionTree\bin\Debug\netcoreapp3.1\ExpressionTree.pdb
+C:\Users\FMI\source\repos\TreeTraversal\ExpressionTree\obj\Debug\netcoreapp3.1\ExpressionTree.csproj.AssemblyReference.cache
+C:\Users\FMI\source\repos\TreeTraversal\ExpressionTree\obj\Debug\netcoreapp3.1\ExpressionTree.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FMI\source\repos\TreeTraversal\ExpressionTree\obj\Debug\netcoreapp3.1\ExpressionTree.AssemblyInfoInputs.cache
+C:\Users\FMI\source\repos\TreeTraversal\ExpressionTree\obj\Debug\netcoreapp3.1\ExpressionTree.AssemblyInfo.cs
+C:\Users\FMI\source\repos\TreeTraversal\ExpressionTree\obj\Debug\netcoreapp3.1\ExpressionTree.csproj.CoreCompileInputs.cache
+C:\Users\FMI\source\repos\TreeTraversal\ExpressionTree\obj\Debug\netcoreapp3.1\ExpressionTree.dll
+C:\Users\FMI\source\repos\TreeTraversal\ExpressionTree\obj\Debug\netcoreapp3.1\ExpressionTree.pdb
+C:\Users\FMI\source\repos\TreeTraversal\ExpressionTree\obj\Debug\netcoreapp3.1\ExpressionTree.genruntimeconfig.cache

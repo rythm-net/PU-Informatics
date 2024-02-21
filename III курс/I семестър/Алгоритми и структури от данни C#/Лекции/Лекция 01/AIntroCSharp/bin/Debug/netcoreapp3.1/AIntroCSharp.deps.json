@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "AIntroCSharp/1.0.0": {
+        "runtime": {
+          "AIntroCSharp.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AIntroCSharp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

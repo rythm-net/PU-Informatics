@@ -1,0 +1,14 @@
+C:\Users\FMI\source\repos\TreeTraversal\PostfixNotation\bin\Debug\netcoreapp3.1\PostfixNotation.exe
+C:\Users\FMI\source\repos\TreeTraversal\PostfixNotation\bin\Debug\netcoreapp3.1\PostfixNotation.deps.json
+C:\Users\FMI\source\repos\TreeTraversal\PostfixNotation\bin\Debug\netcoreapp3.1\PostfixNotation.runtimeconfig.json
+C:\Users\FMI\source\repos\TreeTraversal\PostfixNotation\bin\Debug\netcoreapp3.1\PostfixNotation.runtimeconfig.dev.json
+C:\Users\FMI\source\repos\TreeTraversal\PostfixNotation\bin\Debug\netcoreapp3.1\PostfixNotation.dll
+C:\Users\FMI\source\repos\TreeTraversal\PostfixNotation\bin\Debug\netcoreapp3.1\PostfixNotation.pdb
+C:\Users\FMI\source\repos\TreeTraversal\PostfixNotation\obj\Debug\netcoreapp3.1\PostfixNotation.csproj.AssemblyReference.cache
+C:\Users\FMI\source\repos\TreeTraversal\PostfixNotation\obj\Debug\netcoreapp3.1\PostfixNotation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FMI\source\repos\TreeTraversal\PostfixNotation\obj\Debug\netcoreapp3.1\PostfixNotation.AssemblyInfoInputs.cache
+C:\Users\FMI\source\repos\TreeTraversal\PostfixNotation\obj\Debug\netcoreapp3.1\PostfixNotation.AssemblyInfo.cs
+C:\Users\FMI\source\repos\TreeTraversal\PostfixNotation\obj\Debug\netcoreapp3.1\PostfixNotation.csproj.CoreCompileInputs.cache
+C:\Users\FMI\source\repos\TreeTraversal\PostfixNotation\obj\Debug\netcoreapp3.1\PostfixNotation.dll
+C:\Users\FMI\source\repos\TreeTraversal\PostfixNotation\obj\Debug\netcoreapp3.1\PostfixNotation.pdb
+C:\Users\FMI\source\repos\TreeTraversal\PostfixNotation\obj\Debug\netcoreapp3.1\PostfixNotation.genruntimeconfig.cache

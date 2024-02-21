@@ -1,0 +1,14 @@
+C:\Users\FMI\source\repos\Day2\DNumericSystems\bin\Debug\netcoreapp3.1\DNumericSystems.exe
+C:\Users\FMI\source\repos\Day2\DNumericSystems\bin\Debug\netcoreapp3.1\DNumericSystems.deps.json
+C:\Users\FMI\source\repos\Day2\DNumericSystems\bin\Debug\netcoreapp3.1\DNumericSystems.runtimeconfig.json
+C:\Users\FMI\source\repos\Day2\DNumericSystems\bin\Debug\netcoreapp3.1\DNumericSystems.runtimeconfig.dev.json
+C:\Users\FMI\source\repos\Day2\DNumericSystems\bin\Debug\netcoreapp3.1\DNumericSystems.dll
+C:\Users\FMI\source\repos\Day2\DNumericSystems\bin\Debug\netcoreapp3.1\DNumericSystems.pdb
+C:\Users\FMI\source\repos\Day2\DNumericSystems\obj\Debug\netcoreapp3.1\DNumericSystems.csproj.AssemblyReference.cache
+C:\Users\FMI\source\repos\Day2\DNumericSystems\obj\Debug\netcoreapp3.1\DNumericSystems.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FMI\source\repos\Day2\DNumericSystems\obj\Debug\netcoreapp3.1\DNumericSystems.AssemblyInfoInputs.cache
+C:\Users\FMI\source\repos\Day2\DNumericSystems\obj\Debug\netcoreapp3.1\DNumericSystems.AssemblyInfo.cs
+C:\Users\FMI\source\repos\Day2\DNumericSystems\obj\Debug\netcoreapp3.1\DNumericSystems.csproj.CoreCompileInputs.cache
+C:\Users\FMI\source\repos\Day2\DNumericSystems\obj\Debug\netcoreapp3.1\DNumericSystems.dll
+C:\Users\FMI\source\repos\Day2\DNumericSystems\obj\Debug\netcoreapp3.1\DNumericSystems.pdb
+C:\Users\FMI\source\repos\Day2\DNumericSystems\obj\Debug\netcoreapp3.1\DNumericSystems.genruntimeconfig.cache
