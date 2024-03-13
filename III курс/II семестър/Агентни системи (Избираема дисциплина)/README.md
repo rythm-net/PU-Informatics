@@ -1,6 +1,6 @@
-<h2 align="center">Визуално програмиране с Processing | Visual programming with Processing</h2>
+<h2 align="center">Агентни системи | Agent systems</h2>
 
 ### Основна информация
-* Преподавател (лекции) - **проф. д-р Антон Илиев**
-* Преподавател (лабораторни упражнения) - **док-т Виктор Матански**
-* Курсов проект - [**Link**](https://github.com/rythm-net/PU-Informatics/blob/main/III%20%D0%BA%D1%83%D1%80%D1%81/I%20%D1%81%D0%B5%D0%BC%D0%B5%D1%81%D1%82%D1%8A%D1%80/%D0%92%D0%B8%D0%B7%D1%83%D0%B0%D0%BB%D0%BD%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%B8%D1%80%D0%B0%D0%BD%D0%B5%20%D1%81%20Processing%20(%D0%98%D0%B7%D0%B1%D0%B8%D1%80%D0%B0%D0%B5%D0%BC%D0%B0%20%D0%B4%D0%B8%D1%81%D1%86%D0%B8%D0%BF%D0%BB%D0%B8%D0%BD%D0%B0)/SimpleGame.rar)
+* Преподавател (лекции) - **доц. д-р Владимир Шкуртов**
+* Преподавател (лабораторни упражнения) - **хон. ас. Стефан Ставрев**
+* Курсов проект - [**Link**](https://github.com/rythm-net/PU-Informatics/tree/main/III%20%D0%BA%D1%83%D1%80%D1%81/II%20%D1%81%D0%B5%D0%BC%D0%B5%D1%81%D1%82%D1%8A%D1%80/%D0%90%D0%B3%D0%B5%D0%BD%D1%82%D0%BD%D0%B8%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B8%20(%D0%98%D0%B7%D0%B1%D0%B8%D1%80%D0%B0%D0%B5%D0%BC%D0%B0%20%D0%B4%D0%B8%D1%81%D1%86%D0%B8%D0%BF%D0%BB%D0%B8%D0%BD%D0%B0)/%D0%9A%D1%83%D1%80%D1%81%D0%BE%D0%B2%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82)
