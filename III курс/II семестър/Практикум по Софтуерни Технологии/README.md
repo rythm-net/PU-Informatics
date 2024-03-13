@@ -1,4 +1,4 @@
-<h2 align="center">	Practice in Software Technologies | Практикум по Софтуерни Технологии</h2>
+<h2 align="center">Практикум по Софтуерни Технологии | Practice in Software Technologies</h2>
 
 ### Основна информация
 * Преподавател (лабораторни упражнения) - **гл. ас. д-р Ася Тоскова**
