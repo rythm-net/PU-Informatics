@@ -1,4 +1,4 @@
-<h2 align="center">Distributed Applications C# | Разпределени приложения C#</h2>
+<h2 align="center">Разпределени приложения C# | Distributed Applications C#</h2>
 
 ### Основна информация
 * Преподавател (лекции) - **проф. Антон Илиев**
