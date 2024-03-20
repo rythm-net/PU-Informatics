@@ -1,1 +1,6 @@
-<h2 align="center">Дигитален маркетинг и SEO Оптимизация | SEO Optimization</h2>
+<h2 align="center">Дигитален маркетинг и SEO Оптимизация | <br>Digital Marketing and SEO Optimization</h2>
+
+### Основна информация
+* Преподавател (лекции) - **доц. д-р Тодорка Терзиева**
+* Преподавател (лабораторни упражнения) - **хон.ас. Николай Чочев**
+* Website - [**Link**](https://chochev.eu/seo/)
