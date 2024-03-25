@@ -1,0 +1,52 @@
+Drupal Installation:
+За инсталацията на Drupal 10 ползваме: https://pantheon.io/
+Ако някой все още няма проект, нека се регистрира на Pantheon, като следва стъпките:
+https://www.youtube.com/watch?v=wu8kFna-wmA (интерфейсът е променен, но принципът е същият)
+
+
+Installing Modules & Themes:
+https://www.youtube.com/watch?v=b-a5miK3rdo
+https://www.youtube.com/watch?v=C4Abc_VPEXQ&t=42s
+https://www.youtube.com/watch?v=bEjt8H_VEys
+
+
+Drupal Essentials:
+https://www.drupal.org/docs/user_guide/en/index.html
+
+
+Content Types & Fields:
+https://www.youtube.com/watch?v=tj5E-jdQehw
+https://www.youtube.com/watch?v=Nfu6nckjuno
+
+
+Taxonomy:
+https://www.youtube.com/watch?v=upFz4WrJ1-Q
+
+
+Roles & User Permissions:
+https://www.youtube.com/watch?v=C4prvaTK-hE
+
+
+Blocks:
+https://www.youtube.com/watch?v=YDF6hIBLyYY
+
+
+Views:
+https://www.youtube.com/watch?v=MHT_Q7GH7dw
+
+
+Pathauto & Friendly URLs:
+https://www.ostraining.com/blog/drupal/pathauto/
+https://www.youtube.com/watch?v=CQobMiCHvc8
+
+
+Metatag:
+https://www.youtube.com/watch?v=4pYFS4Z23fg&t=11s
+
+
+Simple XML Sitemap:
+https://www.youtube.com/watch?v=yj2pL6_P91c
+
+
+Multilingual Guide:
+https://www.drupal.org/docs/multilingual-guide
