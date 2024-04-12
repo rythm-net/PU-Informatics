@@ -1,4 +1,4 @@
-<h2 align="center">Методи на транслация | Translation Method</h2>
+<h2 align="center">Методи на транслация | Translation Methods</h2>
 
 ### Основна информация
 * Преподавател (лекции) - **доц. д-р Александър Пенев**
