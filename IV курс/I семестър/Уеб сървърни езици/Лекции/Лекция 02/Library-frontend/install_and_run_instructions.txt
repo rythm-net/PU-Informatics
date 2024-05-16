@@ -1,0 +1,7 @@
+To build and start the frontend, follow the following steps:
+
+1. Make sure you have node.js (https://nodejs.org) installed on your computer.
+2. Under command line switch to the main directory of the frontend (Library-frontend)
+3. To install dependencies, execute `npm install`
+4. To run the frontend, execute `npm start`
+5. (Optional) To build the frontend, execeute `npm run build`. It will be built under `build` subdirectory
