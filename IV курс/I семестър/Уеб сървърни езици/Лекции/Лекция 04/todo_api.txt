@@ -1,0 +1,8 @@
+Todo rest_api:
+
+1. When creating new Todo for user:
+   - set TodoStatus = IN_PROGRESS if first Todo for the TeamMember
+   - set TdooStatus = NOT_STARTED when the team member has one or more Todos already
+   - Find last Todo and update nextTodo to point to the newly created Object in order to create sequence of Todos to be executed
+2. Add api endpoint markAsDone/<todo id>:
+   - POST to the endpoint will mark the todo as DONE and update the next todo to IN_PROGRESS
