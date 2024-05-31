@@ -1,0 +1,306 @@
+Follow this steps if you do not have PyCharm (Python IDE) on your machine:
+
+Go to the desired directory and run this command:
+	Creating the virtual environment: python -m venv myenv 
+	To see the version of python: python --version
+	To activate the virtual environment: myenv\Scripts\activate
+	To deactivate the virtual envirnonment, don't run it: deactivate
+	To see the global packages, not necessary for the project: pip freeze - gloval environment
+	
+	To go to the virtual environment directory: cd myenv
+	To install django: pip install Django
+	To save the needed the packages in a requirements file: pip freeze > requirements.txt
+	To install the requirements, not necessary for the project, except you are starting the project at other virtual environment: epip install -r requirements.txt
+	
+	To install django project: django-admin startproject main
+	To go to project directory: cd main
+	To start a new django app: python manage.py startapp web
+	Open the project in an IDE (VSCode, PyCharm)
+	Navigate to the project
+	To configure the project correctly: add the web (app) folder into main project
+	To migrate before starting the actual work, needed command: python manage.py migrate
+	
+In project directory:
+	To go to project directory if you are not in there: cd main
+	To install djangorestframework: pip install djangorestframework
+Go to settings.py:
+	add 'rest_framework' into INSTALLED_APPS 
+Outside (main) project directory:
+	create a new folder called "api"
+	create a new file called views.py inside "api" folder
+
+views.py
+from rest_framework.response import Response
+from rest_framework.decorators import api_view
+
+@api_view(['GET'])
+def getData(request):
+    person = {'name': 'Ivan', 'age': 30}
+    return Response(person)
+
+Go to console in project directory (main)
+	run the following command to run the server -> python manage.py runserver -> type localhost:8000 in the browser
+
+In "api" folder:
+	create a new file called urls.py
+
+urls.py
+from django.urls import path
+from . import views
+
+urlpatterns = [
+    path('', views.getData),
+]
+
+Go to "urls.py" file in main folder
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('', include('api.urls')),
+]
+
+Go outside (main) project directory:
+	run the following command -> python manage.py startapp base
+
+Go to main app settings:
+	register "base" in INSTALLED_APPS
+
+Go to models.py file in the new project called base
+base.models.py
+from django.db import models
+
+# Create your models here.
+
+class Item(models.Model):
+    name = models.CharField(max_length=200)
+    created = models.DateTimeField(auto_now_add=True)
+
+Go to main project directory
+	run the command -> python manage.py makemigrations
+	run the command -> python manage.py migrate
+
+Go to main project directory
+	run the command -> python manage.py shell
+	from base.models import Item
+	Item.objects.create(name="Item #1")
+	Item.objects.create(name="Item #2")
+	Item.objects.create(name="Item #3")
+
+	items = Item.objects.all()
+	print(items)
+	exit()
+
+Run the server -> python manage.py runserver
+
+Go to "api" folder
+	create serializer.py file
+
+serializer.py
+from rest_framework import serializers
+from base.models import Item
+
+class ItemSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Item 
+        fields = "__all__"
+
+Go to api.views.py
+	from base.models import Item
+	from .serializers import ItemSerializer
+
+views.py
+from rest_framework.response import Response
+from rest_framework.decorators import api_view
+
+from base.models import Item
+from .serializer import ItemSerializer
+
+@api_view(['GET'])
+def getData(request):
+    items = Item.objects.all()
+    serializer = ItemSerializer(items, many=True) # many=True because we are serializing more than one item, if it is one -> many=False
+    return Response(serializer.data)
+
+-- OPTIONAL
+@api_view(['POST'])
+def addItem(request):
+    serializer = ItemSerializer(data=request.data)
+    if serializer.is_valid():
+        serializer.save()
+    return Response(serializer.data)
+
+Go to api.urls.py
+	add new path to urlpatterns
+from django.urls import path
+from . import views
+
+urlpatterns = [
+    path('', views.getData),
+    path('add/', views.addItem)
+]
+
+Go to localhost:8000/add/
+	post a new item:
+	{
+	"name": "Item created from post request"
+	}
+
+// Admin Panel
+Go to main project
+	run the command python manage.py createsuperuser
+
+Go to base.admin
+	Add the following code:
+	from django.contrib import admin
+	from base.models import Item
+
+	# Register your models here.
+
+	@admin.register(Item)
+	class ItemAdmin(admin.ModelAdmin):
+    		pass
+	
+Follow these steps if you have PyCharm (Python IDE) on your machine:
+	Open PyCharm
+	New Project
+	Give the project a name -> for example: main
+	Make sure you configured python 
+	Open Terminal in PyCharm (By default you already have virtual environment - venv configured)
+	To install Django, run the command -> pip install django
+	To start a new project, run the command -> django-admin startproject main
+	To install a new django app, run the commands -> cd main -> python manage.py startapp web
+	To configure the app correctly, move the "web" folder in "main" folder, where the "settings.py" file is
+	To install django-rest-framework, run the command -> pip install djangorestframework
+	To save the installed packages, run the command -> pip freeze > requirements.txt
+	Go to settings.py and add "rest_framework" in INSTALLED_APPS
+	Outside (main) project directory, create a new folder called "api", create a new file called views.py inside "api" folder
+
+views.py
+from rest_framework.response import Response
+from rest_framework.decorators import api_view
+
+@api_view(['GET'])
+def getData(request):
+    person = {'name': 'Ivan', 'age': 30}
+    return Response(person)
+
+Go to console in project directory (main)
+	run the following command to run the server -> python manage.py runserver -> type localhost:8000 in the browser
+
+In "api" folder:
+	create a new file called urls.py
+
+urls.py
+from django.urls import path
+from . import views
+
+urlpatterns = [
+    path('', views.getData),
+]
+
+Go to "urls.py" file in main folder
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('', include('api.urls')),
+]
+
+Go outside (main) project directory:
+	run the following command -> python manage.py startapp base
+
+Go to main app settings:
+	register "base" in INSTALLED_APPS
+
+Go to models.py file in the new project called base
+base.models.py
+from django.db import models
+
+# Create your models here.
+
+class Item(models.Model):
+    name = models.CharField(max_length=200)
+    created = models.DateTimeField(auto_now_add=True)
+
+Go to main project directory
+	run the command -> python manage.py makemigrations
+	run the command -> python manage.py migrate
+
+Go to main project directory
+	run the command -> python manage.py shell
+	from base.models import Item
+	Item.objects.create(name="Item #1")
+	Item.objects.create(name="Item #2")
+	Item.objects.create(name="Item #3")
+
+	items = Item.objects.all()
+	print(items)
+	exit()
+
+Run the server -> python manage.py runserver
+
+Go to "api" folder
+	create serializer.py file
+
+serializer.py
+from rest_framework import serializers
+from base.models import Item
+
+class ItemSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Item 
+        fields = "__all__"
+
+Go to api.views.py
+	from base.models import Item
+	from .serializers import ItemSerializer
+
+views.py
+from rest_framework.response import Response
+from rest_framework.decorators import api_view
+
+from base.models import Item
+from .serializer import ItemSerializer
+
+@api_view(['GET'])
+def getData(request):
+    items = Item.objects.all()
+    serializer = ItemSerializer(items, many=True) # many=True because we are serializing more than one item, if it is one -> many=False
+    return Response(serializer.data)
+
+-- OPTIONAL
+@api_view(['POST'])
+def addItem(request):
+    serializer = ItemSerializer(data=request.data)
+    if serializer.is_valid():
+        serializer.save()
+    return Response(serializer.data)
+
+Go to api.urls.py
+	add new path to urlpatterns
+from django.urls import path
+from . import views
+
+urlpatterns = [
+    path('', views.getData),
+    path('add/', views.addItem)
+]
+
+Go to localhost:8000/add/
+	post a new item:
+	{
+	"name": "Item created from post request"
+	}
+
+// Admin Panel
+Go to main project
+	run the command python manage.py createsuperuser
+
+Go to base.admin
+	Add the following code:
+	from django.contrib import admin
+	from base.models import Item
+
+	# Register your models here.
+
+	@admin.register(Item)
+	class ItemAdmin(admin.ModelAdmin):
+    		pass
+	
