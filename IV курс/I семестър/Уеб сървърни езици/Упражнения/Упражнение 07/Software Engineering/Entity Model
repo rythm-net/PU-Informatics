@@ -1,0 +1,34 @@
+Entities
+
+Paste
+
+id - Long
+created date - LocalDateTime
+updated date - LocalDateTime
+client id - Client
+title - String - 100 chars
+content - String - 1000 chars
+
+Client
+ 
+id - Long
+created date - LocalDateTime
+updated date - LocalDateTime
+username - String - 20 chars
+password - String - 50 chars
+
+Comment
+
+id - Long
+created date - LocalDateTime
+updated date - LocalDateTime
+client id - Client
+paste id - Paste
+comment - String - 200 chars
+
+Vote
+
+id - Long 
+comment id - Comment
+client id - Client
+is upvote - boolean
