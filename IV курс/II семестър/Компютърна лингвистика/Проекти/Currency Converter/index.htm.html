@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Currency Converter: USD to EUR</h2>
+        <form id="convertForm">
+            <div class="form-group">
+                <label for="textInput">Enter text with USD prices:</label>
+                <textarea class="form-control" id="textInput" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Convert</button>
+        </form>
+        <div id="resultText" class="mt-3"></div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script>
+        $('#convertForm').on('submit', function(e) {
+            e.preventDefault();
+            $.ajax({
+                url: 'http://localhost:5000/convert',
+                type: 'POST',
+                contentType: 'application/json',
+                data: JSON.stringify({ text: $('#textInput').val() }),
+                success: function(response) {
+                    $('#resultText').html(`<strong>Converted Text:</strong> ${response.converted_text}`);
+                },
+                error: function(error) {
+                    console.log(error);
+                    $('#resultText').html("<strong>Error: </strong>"+JSON.stringify(error));
+                }
+            });
+        });
+    </script>
+</body>
+</html>
