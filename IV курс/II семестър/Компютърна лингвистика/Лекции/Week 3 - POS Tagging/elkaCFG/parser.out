@@ -1,0 +1,704 @@
+Created by PLY version 3.11 (http://www.dabeaz.com/ply)
+
+Grammar
+
+Rule 0     S' -> expression
+Rule 1     expression -> expression PLUS term
+Rule 2     expression -> VARNAME EQ expression
+Rule 3     expression -> expression MINUS term
+Rule 4     expression -> term
+Rule 5     term -> term TIMES factor
+Rule 6     term -> term DIVIDE factor
+Rule 7     term -> term POW factor
+Rule 8     term -> factor
+Rule 9     factor -> NUMBER
+Rule 10    factor -> VARNAME
+Rule 11    factor -> LPAREN expression RPAREN
+Rule 12    factor -> FUNNAME LPAREN expression RPAREN
+Rule 13    factor -> FUNNAME LPAREN RPAREN
+Rule 14    factor -> FUNNAME LPAREN expression COMMA expression RPAREN
+Rule 15    factor -> FUNNAME LPAREN expression COMMA expression COMMA expression RPAREN
+Rule 16    factor -> FUNNAME LPAREN expression COMMA expression COMMA expression COMMA expression RPAREN
+
+Terminals, with rules where they appear
+
+COMMA                : 14 15 15 16 16 16
+DIVIDE               : 6
+EQ                   : 2
+FUNNAME              : 12 13 14 15 16
+LPAREN               : 11 12 13 14 15 16
+MINUS                : 3
+NUMBER               : 9
+PLUS                 : 1
+POW                  : 7
+RPAREN               : 11 12 13 14 15 16
+TIMES                : 5
+VARNAME              : 2 10
+error                : 
+
+Nonterminals, with rules where they appear
+
+expression           : 1 2 3 11 12 14 14 15 15 15 16 16 16 16 0
+factor               : 5 6 7 8
+term                 : 1 3 4 5 6 7
+
+Parsing method: LALR
+
+state 0
+
+    (0) S' -> . expression
+    (1) expression -> . expression PLUS term
+    (2) expression -> . VARNAME EQ expression
+    (3) expression -> . expression MINUS term
+    (4) expression -> . term
+    (5) term -> . term TIMES factor
+    (6) term -> . term DIVIDE factor
+    (7) term -> . term POW factor
+    (8) term -> . factor
+    (9) factor -> . NUMBER
+    (10) factor -> . VARNAME
+    (11) factor -> . LPAREN expression RPAREN
+    (12) factor -> . FUNNAME LPAREN expression RPAREN
+    (13) factor -> . FUNNAME LPAREN RPAREN
+    (14) factor -> . FUNNAME LPAREN expression COMMA expression RPAREN
+    (15) factor -> . FUNNAME LPAREN expression COMMA expression COMMA expression RPAREN
+    (16) factor -> . FUNNAME LPAREN expression COMMA expression COMMA expression COMMA expression RPAREN
+
+    VARNAME         shift and go to state 3
+    NUMBER          shift and go to state 5
+    LPAREN          shift and go to state 6
+    FUNNAME         shift and go to state 7
+
+    expression                     shift and go to state 1
+    term                           shift and go to state 2
+    factor                         shift and go to state 4
+
+state 1
+
+    (0) S' -> expression .
+    (1) expression -> expression . PLUS term
+    (3) expression -> expression . MINUS term
+
+    PLUS            shift and go to state 8
+    MINUS           shift and go to state 9
+
+
+state 2
+
+    (4) expression -> term .
+    (5) term -> term . TIMES factor
+    (6) term -> term . DIVIDE factor
+    (7) term -> term . POW factor
+
+    PLUS            reduce using rule 4 (expression -> term .)
+    MINUS           reduce using rule 4 (expression -> term .)
+    $end            reduce using rule 4 (expression -> term .)
+    RPAREN          reduce using rule 4 (expression -> term .)
+    COMMA           reduce using rule 4 (expression -> term .)
+    TIMES           shift and go to state 10
+    DIVIDE          shift and go to state 11
+    POW             shift and go to state 12
+
+
+state 3
+
+    (2) expression -> VARNAME . EQ expression
+    (10) factor -> VARNAME .
+
+    EQ              shift and go to state 13
+    TIMES           reduce using rule 10 (factor -> VARNAME .)
+    DIVIDE          reduce using rule 10 (factor -> VARNAME .)
+    POW             reduce using rule 10 (factor -> VARNAME .)
+    PLUS            reduce using rule 10 (factor -> VARNAME .)
+    MINUS           reduce using rule 10 (factor -> VARNAME .)
+    $end            reduce using rule 10 (factor -> VARNAME .)
+    RPAREN          reduce using rule 10 (factor -> VARNAME .)
+    COMMA           reduce using rule 10 (factor -> VARNAME .)
+
+
+state 4
+
+    (8) term -> factor .
+
+    TIMES           reduce using rule 8 (term -> factor .)
+    DIVIDE          reduce using rule 8 (term -> factor .)
+    POW             reduce using rule 8 (term -> factor .)
+    PLUS            reduce using rule 8 (term -> factor .)
+    MINUS           reduce using rule 8 (term -> factor .)
+    $end            reduce using rule 8 (term -> factor .)
+    RPAREN          reduce using rule 8 (term -> factor .)
+    COMMA           reduce using rule 8 (term -> factor .)
+
+
+state 5
+
+    (9) factor -> NUMBER .
+
+    TIMES           reduce using rule 9 (factor -> NUMBER .)
+    DIVIDE          reduce using rule 9 (factor -> NUMBER .)
+    POW             reduce using rule 9 (factor -> NUMBER .)
+    PLUS            reduce using rule 9 (factor -> NUMBER .)
+    MINUS           reduce using rule 9 (factor -> NUMBER .)
+    $end            reduce using rule 9 (factor -> NUMBER .)
+    RPAREN          reduce using rule 9 (factor -> NUMBER .)
+    COMMA           reduce using rule 9 (factor -> NUMBER .)
+
+
+state 6
+
+    (11) factor -> LPAREN . expression RPAREN
+    (1) expression -> . expression PLUS term
+    (2) expression -> . VARNAME EQ expression
+    (3) expression -> . expression MINUS term
+    (4) expression -> . term
+    (5) term -> . term TIMES factor
+    (6) term -> . term DIVIDE factor
+    (7) term -> . term POW factor
+    (8) term -> . factor
+    (9) factor -> . NUMBER
+    (10) factor -> . VARNAME
+    (11) factor -> . LPAREN expression RPAREN
+    (12) factor -> . FUNNAME LPAREN expression RPAREN
+    (13) factor -> . FUNNAME LPAREN RPAREN
+    (14) factor -> . FUNNAME LPAREN expression COMMA expression RPAREN
+    (15) factor -> . FUNNAME LPAREN expression COMMA expression COMMA expression RPAREN
+    (16) factor -> . FUNNAME LPAREN expression COMMA expression COMMA expression COMMA expression RPAREN
+
+    VARNAME         shift and go to state 3
+    NUMBER          shift and go to state 5
+    LPAREN          shift and go to state 6
+    FUNNAME         shift and go to state 7
+
+    expression                     shift and go to state 14
+    term                           shift and go to state 2
+    factor                         shift and go to state 4
+
+state 7
+
+    (12) factor -> FUNNAME . LPAREN expression RPAREN
+    (13) factor -> FUNNAME . LPAREN RPAREN
+    (14) factor -> FUNNAME . LPAREN expression COMMA expression RPAREN
+    (15) factor -> FUNNAME . LPAREN expression COMMA expression COMMA expression RPAREN
+    (16) factor -> FUNNAME . LPAREN expression COMMA expression COMMA expression COMMA expression RPAREN
+
+    LPAREN          shift and go to state 15
+
+
+state 8
+
+    (1) expression -> expression PLUS . term
+    (5) term -> . term TIMES factor
+    (6) term -> . term DIVIDE factor
+    (7) term -> . term POW factor
+    (8) term -> . factor
+    (9) factor -> . NUMBER
+    (10) factor -> . VARNAME
+    (11) factor -> . LPAREN expression RPAREN
+    (12) factor -> . FUNNAME LPAREN expression RPAREN
+    (13) factor -> . FUNNAME LPAREN RPAREN
+    (14) factor -> . FUNNAME LPAREN expression COMMA expression RPAREN
+    (15) factor -> . FUNNAME LPAREN expression COMMA expression COMMA expression RPAREN
+    (16) factor -> . FUNNAME LPAREN expression COMMA expression COMMA expression COMMA expression RPAREN
+
+    NUMBER          shift and go to state 5
+    VARNAME         shift and go to state 17
+    LPAREN          shift and go to state 6
+    FUNNAME         shift and go to state 7
+
+    term                           shift and go to state 16
+    factor                         shift and go to state 4
+
+state 9
+
+    (3) expression -> expression MINUS . term
+    (5) term -> . term TIMES factor
+    (6) term -> . term DIVIDE factor
+    (7) term -> . term POW factor
+    (8) term -> . factor
+    (9) factor -> . NUMBER
+    (10) factor -> . VARNAME
+    (11) factor -> . LPAREN expression RPAREN
+    (12) factor -> . FUNNAME LPAREN expression RPAREN
+    (13) factor -> . FUNNAME LPAREN RPAREN
+    (14) factor -> . FUNNAME LPAREN expression COMMA expression RPAREN
+    (15) factor -> . FUNNAME LPAREN expression COMMA expression COMMA expression RPAREN
+    (16) factor -> . FUNNAME LPAREN expression COMMA expression COMMA expression COMMA expression RPAREN
+
+    NUMBER          shift and go to state 5
+    VARNAME         shift and go to state 17
+    LPAREN          shift and go to state 6
+    FUNNAME         shift and go to state 7
+
+    term                           shift and go to state 18
+    factor                         shift and go to state 4
+
+state 10
+
+    (5) term -> term TIMES . factor
+    (9) factor -> . NUMBER
+    (10) factor -> . VARNAME
+    (11) factor -> . LPAREN expression RPAREN
+    (12) factor -> . FUNNAME LPAREN expression RPAREN
+    (13) factor -> . FUNNAME LPAREN RPAREN
+    (14) factor -> . FUNNAME LPAREN expression COMMA expression RPAREN
+    (15) factor -> . FUNNAME LPAREN expression COMMA expression COMMA expression RPAREN
+    (16) factor -> . FUNNAME LPAREN expression COMMA expression COMMA expression COMMA expression RPAREN
+
+    NUMBER          shift and go to state 5
+    VARNAME         shift and go to state 17
+    LPAREN          shift and go to state 6
+    FUNNAME         shift and go to state 7
+
+    factor                         shift and go to state 19
+
+state 11
+
+    (6) term -> term DIVIDE . factor
+    (9) factor -> . NUMBER
+    (10) factor -> . VARNAME
+    (11) factor -> . LPAREN expression RPAREN
+    (12) factor -> . FUNNAME LPAREN expression RPAREN
+    (13) factor -> . FUNNAME LPAREN RPAREN
+    (14) factor -> . FUNNAME LPAREN expression COMMA expression RPAREN
+    (15) factor -> . FUNNAME LPAREN expression COMMA expression COMMA expression RPAREN
+    (16) factor -> . FUNNAME LPAREN expression COMMA expression COMMA expression COMMA expression RPAREN
+
+    NUMBER          shift and go to state 5
+    VARNAME         shift and go to state 17
+    LPAREN          shift and go to state 6
+    FUNNAME         shift and go to state 7
+
+    factor                         shift and go to state 20
+
+state 12
+
+    (7) term -> term POW . factor
+    (9) factor -> . NUMBER
+    (10) factor -> . VARNAME
+    (11) factor -> . LPAREN expression RPAREN
+    (12) factor -> . FUNNAME LPAREN expression RPAREN
+    (13) factor -> . FUNNAME LPAREN RPAREN
+    (14) factor -> . FUNNAME LPAREN expression COMMA expression RPAREN
+    (15) factor -> . FUNNAME LPAREN expression COMMA expression COMMA expression RPAREN
+    (16) factor -> . FUNNAME LPAREN expression COMMA expression COMMA expression COMMA expression RPAREN
+
+    NUMBER          shift and go to state 5
+    VARNAME         shift and go to state 17
+    LPAREN          shift and go to state 6
+    FUNNAME         shift and go to state 7
+
+    factor                         shift and go to state 21
+
+state 13
+
+    (2) expression -> VARNAME EQ . expression
+    (1) expression -> . expression PLUS term
+    (2) expression -> . VARNAME EQ expression
+    (3) expression -> . expression MINUS term
+    (4) expression -> . term
+    (5) term -> . term TIMES factor
+    (6) term -> . term DIVIDE factor
+    (7) term -> . term POW factor
+    (8) term -> . factor
+    (9) factor -> . NUMBER
+    (10) factor -> . VARNAME
+    (11) factor -> . LPAREN expression RPAREN
+    (12) factor -> . FUNNAME LPAREN expression RPAREN
+    (13) factor -> . FUNNAME LPAREN RPAREN
+    (14) factor -> . FUNNAME LPAREN expression COMMA expression RPAREN
+    (15) factor -> . FUNNAME LPAREN expression COMMA expression COMMA expression RPAREN
+    (16) factor -> . FUNNAME LPAREN expression COMMA expression COMMA expression COMMA expression RPAREN
+
+    VARNAME         shift and go to state 3
+    NUMBER          shift and go to state 5
+    LPAREN          shift and go to state 6
+    FUNNAME         shift and go to state 7
+
+    expression                     shift and go to state 22
+    term                           shift and go to state 2
+    factor                         shift and go to state 4
+
+state 14
+
+    (11) factor -> LPAREN expression . RPAREN
+    (1) expression -> expression . PLUS term
+    (3) expression -> expression . MINUS term
+
+    RPAREN          shift and go to state 23
+    PLUS            shift and go to state 8
+    MINUS           shift and go to state 9
+
+
+state 15
+
+    (12) factor -> FUNNAME LPAREN . expression RPAREN
+    (13) factor -> FUNNAME LPAREN . RPAREN
+    (14) factor -> FUNNAME LPAREN . expression COMMA expression RPAREN
+    (15) factor -> FUNNAME LPAREN . expression COMMA expression COMMA expression RPAREN
+    (16) factor -> FUNNAME LPAREN . expression COMMA expression COMMA expression COMMA expression RPAREN
+    (1) expression -> . expression PLUS term
+    (2) expression -> . VARNAME EQ expression
+    (3) expression -> . expression MINUS term
+    (4) expression -> . term
+    (5) term -> . term TIMES factor
+    (6) term -> . term DIVIDE factor
+    (7) term -> . term POW factor
+    (8) term -> . factor
+    (9) factor -> . NUMBER
+    (10) factor -> . VARNAME
+    (11) factor -> . LPAREN expression RPAREN
+    (12) factor -> . FUNNAME LPAREN expression RPAREN
+    (13) factor -> . FUNNAME LPAREN RPAREN
+    (14) factor -> . FUNNAME LPAREN expression COMMA expression RPAREN
+    (15) factor -> . FUNNAME LPAREN expression COMMA expression COMMA expression RPAREN
+    (16) factor -> . FUNNAME LPAREN expression COMMA expression COMMA expression COMMA expression RPAREN
+
+    RPAREN          shift and go to state 25
+    VARNAME         shift and go to state 3
+    NUMBER          shift and go to state 5
+    LPAREN          shift and go to state 6
+    FUNNAME         shift and go to state 7
+
+    expression                     shift and go to state 24
+    term                           shift and go to state 2
+    factor                         shift and go to state 4
+
+state 16
+
+    (1) expression -> expression PLUS term .
+    (5) term -> term . TIMES factor
+    (6) term -> term . DIVIDE factor
+    (7) term -> term . POW factor
+
+    PLUS            reduce using rule 1 (expression -> expression PLUS term .)
+    MINUS           reduce using rule 1 (expression -> expression PLUS term .)
+    $end            reduce using rule 1 (expression -> expression PLUS term .)
+    RPAREN          reduce using rule 1 (expression -> expression PLUS term .)
+    COMMA           reduce using rule 1 (expression -> expression PLUS term .)
+    TIMES           shift and go to state 10
+    DIVIDE          shift and go to state 11
+    POW             shift and go to state 12
+
+
+state 17
+
+    (10) factor -> VARNAME .
+
+    TIMES           reduce using rule 10 (factor -> VARNAME .)
+    DIVIDE          reduce using rule 10 (factor -> VARNAME .)
+    POW             reduce using rule 10 (factor -> VARNAME .)
+    PLUS            reduce using rule 10 (factor -> VARNAME .)
+    MINUS           reduce using rule 10 (factor -> VARNAME .)
+    $end            reduce using rule 10 (factor -> VARNAME .)
+    RPAREN          reduce using rule 10 (factor -> VARNAME .)
+    COMMA           reduce using rule 10 (factor -> VARNAME .)
+
+
+state 18
+
+    (3) expression -> expression MINUS term .
+    (5) term -> term . TIMES factor
+    (6) term -> term . DIVIDE factor
+    (7) term -> term . POW factor
+
+    PLUS            reduce using rule 3 (expression -> expression MINUS term .)
+    MINUS           reduce using rule 3 (expression -> expression MINUS term .)
+    $end            reduce using rule 3 (expression -> expression MINUS term .)
+    RPAREN          reduce using rule 3 (expression -> expression MINUS term .)
+    COMMA           reduce using rule 3 (expression -> expression MINUS term .)
+    TIMES           shift and go to state 10
+    DIVIDE          shift and go to state 11
+    POW             shift and go to state 12
+
+
+state 19
+
+    (5) term -> term TIMES factor .
+
+    TIMES           reduce using rule 5 (term -> term TIMES factor .)
+    DIVIDE          reduce using rule 5 (term -> term TIMES factor .)
+    POW             reduce using rule 5 (term -> term TIMES factor .)
+    PLUS            reduce using rule 5 (term -> term TIMES factor .)
+    MINUS           reduce using rule 5 (term -> term TIMES factor .)
+    $end            reduce using rule 5 (term -> term TIMES factor .)
+    RPAREN          reduce using rule 5 (term -> term TIMES factor .)
+    COMMA           reduce using rule 5 (term -> term TIMES factor .)
+
+
+state 20
+
+    (6) term -> term DIVIDE factor .
+
+    TIMES           reduce using rule 6 (term -> term DIVIDE factor .)
+    DIVIDE          reduce using rule 6 (term -> term DIVIDE factor .)
+    POW             reduce using rule 6 (term -> term DIVIDE factor .)
+    PLUS            reduce using rule 6 (term -> term DIVIDE factor .)
+    MINUS           reduce using rule 6 (term -> term DIVIDE factor .)
+    $end            reduce using rule 6 (term -> term DIVIDE factor .)
+    RPAREN          reduce using rule 6 (term -> term DIVIDE factor .)
+    COMMA           reduce using rule 6 (term -> term DIVIDE factor .)
+
+
+state 21
+
+    (7) term -> term POW factor .
+
+    TIMES           reduce using rule 7 (term -> term POW factor .)
+    DIVIDE          reduce using rule 7 (term -> term POW factor .)
+    POW             reduce using rule 7 (term -> term POW factor .)
+    PLUS            reduce using rule 7 (term -> term POW factor .)
+    MINUS           reduce using rule 7 (term -> term POW factor .)
+    $end            reduce using rule 7 (term -> term POW factor .)
+    RPAREN          reduce using rule 7 (term -> term POW factor .)
+    COMMA           reduce using rule 7 (term -> term POW factor .)
+
+
+state 22
+
+    (2) expression -> VARNAME EQ expression .
+    (1) expression -> expression . PLUS term
+    (3) expression -> expression . MINUS term
+
+  ! shift/reduce conflict for PLUS resolved as shift
+  ! shift/reduce conflict for MINUS resolved as shift
+    $end            reduce using rule 2 (expression -> VARNAME EQ expression .)
+    RPAREN          reduce using rule 2 (expression -> VARNAME EQ expression .)
+    COMMA           reduce using rule 2 (expression -> VARNAME EQ expression .)
+    PLUS            shift and go to state 8
+    MINUS           shift and go to state 9
+
+  ! PLUS            [ reduce using rule 2 (expression -> VARNAME EQ expression .) ]
+  ! MINUS           [ reduce using rule 2 (expression -> VARNAME EQ expression .) ]
+
+
+state 23
+
+    (11) factor -> LPAREN expression RPAREN .
+
+    TIMES           reduce using rule 11 (factor -> LPAREN expression RPAREN .)
+    DIVIDE          reduce using rule 11 (factor -> LPAREN expression RPAREN .)
+    POW             reduce using rule 11 (factor -> LPAREN expression RPAREN .)
+    PLUS            reduce using rule 11 (factor -> LPAREN expression RPAREN .)
+    MINUS           reduce using rule 11 (factor -> LPAREN expression RPAREN .)
+    $end            reduce using rule 11 (factor -> LPAREN expression RPAREN .)
+    RPAREN          reduce using rule 11 (factor -> LPAREN expression RPAREN .)
+    COMMA           reduce using rule 11 (factor -> LPAREN expression RPAREN .)
+
+
+state 24
+
+    (12) factor -> FUNNAME LPAREN expression . RPAREN
+    (14) factor -> FUNNAME LPAREN expression . COMMA expression RPAREN
+    (15) factor -> FUNNAME LPAREN expression . COMMA expression COMMA expression RPAREN
+    (16) factor -> FUNNAME LPAREN expression . COMMA expression COMMA expression COMMA expression RPAREN
+    (1) expression -> expression . PLUS term
+    (3) expression -> expression . MINUS term
+
+    RPAREN          shift and go to state 26
+    COMMA           shift and go to state 27
+    PLUS            shift and go to state 8
+    MINUS           shift and go to state 9
+
+
+state 25
+
+    (13) factor -> FUNNAME LPAREN RPAREN .
+
+    TIMES           reduce using rule 13 (factor -> FUNNAME LPAREN RPAREN .)
+    DIVIDE          reduce using rule 13 (factor -> FUNNAME LPAREN RPAREN .)
+    POW             reduce using rule 13 (factor -> FUNNAME LPAREN RPAREN .)
+    PLUS            reduce using rule 13 (factor -> FUNNAME LPAREN RPAREN .)
+    MINUS           reduce using rule 13 (factor -> FUNNAME LPAREN RPAREN .)
+    $end            reduce using rule 13 (factor -> FUNNAME LPAREN RPAREN .)
+    RPAREN          reduce using rule 13 (factor -> FUNNAME LPAREN RPAREN .)
+    COMMA           reduce using rule 13 (factor -> FUNNAME LPAREN RPAREN .)
+
+
+state 26
+
+    (12) factor -> FUNNAME LPAREN expression RPAREN .
+
+    TIMES           reduce using rule 12 (factor -> FUNNAME LPAREN expression RPAREN .)
+    DIVIDE          reduce using rule 12 (factor -> FUNNAME LPAREN expression RPAREN .)
+    POW             reduce using rule 12 (factor -> FUNNAME LPAREN expression RPAREN .)
+    PLUS            reduce using rule 12 (factor -> FUNNAME LPAREN expression RPAREN .)
+    MINUS           reduce using rule 12 (factor -> FUNNAME LPAREN expression RPAREN .)
+    $end            reduce using rule 12 (factor -> FUNNAME LPAREN expression RPAREN .)
+    RPAREN          reduce using rule 12 (factor -> FUNNAME LPAREN expression RPAREN .)
+    COMMA           reduce using rule 12 (factor -> FUNNAME LPAREN expression RPAREN .)
+
+
+state 27
+
+    (14) factor -> FUNNAME LPAREN expression COMMA . expression RPAREN
+    (15) factor -> FUNNAME LPAREN expression COMMA . expression COMMA expression RPAREN
+    (16) factor -> FUNNAME LPAREN expression COMMA . expression COMMA expression COMMA expression RPAREN
+    (1) expression -> . expression PLUS term
+    (2) expression -> . VARNAME EQ expression
+    (3) expression -> . expression MINUS term
+    (4) expression -> . term
+    (5) term -> . term TIMES factor
+    (6) term -> . term DIVIDE factor
+    (7) term -> . term POW factor
+    (8) term -> . factor
+    (9) factor -> . NUMBER
+    (10) factor -> . VARNAME
+    (11) factor -> . LPAREN expression RPAREN
+    (12) factor -> . FUNNAME LPAREN expression RPAREN
+    (13) factor -> . FUNNAME LPAREN RPAREN
+    (14) factor -> . FUNNAME LPAREN expression COMMA expression RPAREN
+    (15) factor -> . FUNNAME LPAREN expression COMMA expression COMMA expression RPAREN
+    (16) factor -> . FUNNAME LPAREN expression COMMA expression COMMA expression COMMA expression RPAREN
+
+    VARNAME         shift and go to state 3
+    NUMBER          shift and go to state 5
+    LPAREN          shift and go to state 6
+    FUNNAME         shift and go to state 7
+
+    expression                     shift and go to state 28
+    term                           shift and go to state 2
+    factor                         shift and go to state 4
+
+state 28
+
+    (14) factor -> FUNNAME LPAREN expression COMMA expression . RPAREN
+    (15) factor -> FUNNAME LPAREN expression COMMA expression . COMMA expression RPAREN
+    (16) factor -> FUNNAME LPAREN expression COMMA expression . COMMA expression COMMA expression RPAREN
+    (1) expression -> expression . PLUS term
+    (3) expression -> expression . MINUS term
+
+    RPAREN          shift and go to state 30
+    COMMA           shift and go to state 29
+    PLUS            shift and go to state 8
+    MINUS           shift and go to state 9
+
+
+state 29
+
+    (15) factor -> FUNNAME LPAREN expression COMMA expression COMMA . expression RPAREN
+    (16) factor -> FUNNAME LPAREN expression COMMA expression COMMA . expression COMMA expression RPAREN
+    (1) expression -> . expression PLUS term
+    (2) expression -> . VARNAME EQ expression
+    (3) expression -> . expression MINUS term
+    (4) expression -> . term
+    (5) term -> . term TIMES factor
+    (6) term -> . term DIVIDE factor
+    (7) term -> . term POW factor
+    (8) term -> . factor
+    (9) factor -> . NUMBER
+    (10) factor -> . VARNAME
+    (11) factor -> . LPAREN expression RPAREN
+    (12) factor -> . FUNNAME LPAREN expression RPAREN
+    (13) factor -> . FUNNAME LPAREN RPAREN
+    (14) factor -> . FUNNAME LPAREN expression COMMA expression RPAREN
+    (15) factor -> . FUNNAME LPAREN expression COMMA expression COMMA expression RPAREN
+    (16) factor -> . FUNNAME LPAREN expression COMMA expression COMMA expression COMMA expression RPAREN
+
+    VARNAME         shift and go to state 3
+    NUMBER          shift and go to state 5
+    LPAREN          shift and go to state 6
+    FUNNAME         shift and go to state 7
+
+    expression                     shift and go to state 31
+    term                           shift and go to state 2
+    factor                         shift and go to state 4
+
+state 30
+
+    (14) factor -> FUNNAME LPAREN expression COMMA expression RPAREN .
+
+    TIMES           reduce using rule 14 (factor -> FUNNAME LPAREN expression COMMA expression RPAREN .)
+    DIVIDE          reduce using rule 14 (factor -> FUNNAME LPAREN expression COMMA expression RPAREN .)
+    POW             reduce using rule 14 (factor -> FUNNAME LPAREN expression COMMA expression RPAREN .)
+    PLUS            reduce using rule 14 (factor -> FUNNAME LPAREN expression COMMA expression RPAREN .)
+    MINUS           reduce using rule 14 (factor -> FUNNAME LPAREN expression COMMA expression RPAREN .)
+    $end            reduce using rule 14 (factor -> FUNNAME LPAREN expression COMMA expression RPAREN .)
+    RPAREN          reduce using rule 14 (factor -> FUNNAME LPAREN expression COMMA expression RPAREN .)
+    COMMA           reduce using rule 14 (factor -> FUNNAME LPAREN expression COMMA expression RPAREN .)
+
+
+state 31
+
+    (15) factor -> FUNNAME LPAREN expression COMMA expression COMMA expression . RPAREN
+    (16) factor -> FUNNAME LPAREN expression COMMA expression COMMA expression . COMMA expression RPAREN
+    (1) expression -> expression . PLUS term
+    (3) expression -> expression . MINUS term
+
+    RPAREN          shift and go to state 33
+    COMMA           shift and go to state 32
+    PLUS            shift and go to state 8
+    MINUS           shift and go to state 9
+
+
+state 32
+
+    (16) factor -> FUNNAME LPAREN expression COMMA expression COMMA expression COMMA . expression RPAREN
+    (1) expression -> . expression PLUS term
+    (2) expression -> . VARNAME EQ expression
+    (3) expression -> . expression MINUS term
+    (4) expression -> . term
+    (5) term -> . term TIMES factor
+    (6) term -> . term DIVIDE factor
+    (7) term -> . term POW factor
+    (8) term -> . factor
+    (9) factor -> . NUMBER
+    (10) factor -> . VARNAME
+    (11) factor -> . LPAREN expression RPAREN
+    (12) factor -> . FUNNAME LPAREN expression RPAREN
+    (13) factor -> . FUNNAME LPAREN RPAREN
+    (14) factor -> . FUNNAME LPAREN expression COMMA expression RPAREN
+    (15) factor -> . FUNNAME LPAREN expression COMMA expression COMMA expression RPAREN
+    (16) factor -> . FUNNAME LPAREN expression COMMA expression COMMA expression COMMA expression RPAREN
+
+    VARNAME         shift and go to state 3
+    NUMBER          shift and go to state 5
+    LPAREN          shift and go to state 6
+    FUNNAME         shift and go to state 7
+
+    expression                     shift and go to state 34
+    term                           shift and go to state 2
+    factor                         shift and go to state 4
+
+state 33
+
+    (15) factor -> FUNNAME LPAREN expression COMMA expression COMMA expression RPAREN .
+
+    TIMES           reduce using rule 15 (factor -> FUNNAME LPAREN expression COMMA expression COMMA expression RPAREN .)
+    DIVIDE          reduce using rule 15 (factor -> FUNNAME LPAREN expression COMMA expression COMMA expression RPAREN .)
+    POW             reduce using rule 15 (factor -> FUNNAME LPAREN expression COMMA expression COMMA expression RPAREN .)
+    PLUS            reduce using rule 15 (factor -> FUNNAME LPAREN expression COMMA expression COMMA expression RPAREN .)
+    MINUS           reduce using rule 15 (factor -> FUNNAME LPAREN expression COMMA expression COMMA expression RPAREN .)
+    $end            reduce using rule 15 (factor -> FUNNAME LPAREN expression COMMA expression COMMA expression RPAREN .)
+    RPAREN          reduce using rule 15 (factor -> FUNNAME LPAREN expression COMMA expression COMMA expression RPAREN .)
+    COMMA           reduce using rule 15 (factor -> FUNNAME LPAREN expression COMMA expression COMMA expression RPAREN .)
+
+
+state 34
+
+    (16) factor -> FUNNAME LPAREN expression COMMA expression COMMA expression COMMA expression . RPAREN
+    (1) expression -> expression . PLUS term
+    (3) expression -> expression . MINUS term
+
+    RPAREN          shift and go to state 35
+    PLUS            shift and go to state 8
+    MINUS           shift and go to state 9
+
+
+state 35
+
+    (16) factor -> FUNNAME LPAREN expression COMMA expression COMMA expression COMMA expression RPAREN .
+
+    TIMES           reduce using rule 16 (factor -> FUNNAME LPAREN expression COMMA expression COMMA expression COMMA expression RPAREN .)
+    DIVIDE          reduce using rule 16 (factor -> FUNNAME LPAREN expression COMMA expression COMMA expression COMMA expression RPAREN .)
+    POW             reduce using rule 16 (factor -> FUNNAME LPAREN expression COMMA expression COMMA expression COMMA expression RPAREN .)
+    PLUS            reduce using rule 16 (factor -> FUNNAME LPAREN expression COMMA expression COMMA expression COMMA expression RPAREN .)
+    MINUS           reduce using rule 16 (factor -> FUNNAME LPAREN expression COMMA expression COMMA expression COMMA expression RPAREN .)
+    $end            reduce using rule 16 (factor -> FUNNAME LPAREN expression COMMA expression COMMA expression COMMA expression RPAREN .)
+    RPAREN          reduce using rule 16 (factor -> FUNNAME LPAREN expression COMMA expression COMMA expression COMMA expression RPAREN .)
+    COMMA           reduce using rule 16 (factor -> FUNNAME LPAREN expression COMMA expression COMMA expression COMMA expression RPAREN .)
+
+WARNING: 
+WARNING: Conflicts:
+WARNING: 
+WARNING: shift/reduce conflict for PLUS in state 22 resolved as shift
+WARNING: shift/reduce conflict for MINUS in state 22 resolved as shift
