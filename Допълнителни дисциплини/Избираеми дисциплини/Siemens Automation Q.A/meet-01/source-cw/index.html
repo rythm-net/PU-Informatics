@@ -1,0 +1,94 @@
+<html>
+    <head>
+
+        <script>
+        
+        // Софтуера трябва да има възможност да съхранява данните за броя на кръговете, в рамките на които се състезават играчите, както и за количеството въпроси, които могат да бъдат зададени в рамките на всеки един от кръговете.
+            
+        // - създай ми променлива която да пази количеството кръгове които ще се играят
+        var numberOfRound = 4;  // -- Camil Case
+        // var NumberOfRound = 4  -- Pascal case
+        // var number_of_round = 4 -- snake case
+
+        // -- създай променливи за количеството въпроси от всеки кръг
+        var numberOfQuestionsInRoundOne = 4;
+        var numberOfQuestionInRoundTwo  = 3;
+        var numberOfQuestionInRoundTree = 2;
+        var numberOfQuestionInFinalRound = 1;
+
+
+        // Задача 3 - Големите глави от екипа, са измислили страхотно название на нашата игра. И тя е Quizz Show, намерете начин как да съхранявате информацията в системата да я показвате в началото на предаването.
+        var titleOfTheShow = "QuizzShow";
+        console.log(titleOfTheShow);
+
+
+            // клавишна комбинация -- Ctrl + /
+            // console.log("Брой кръгове в играта");
+            // console.log(numberOfRound);
+
+            // това е текст долепен до променлива
+            console.log("Брой кръгове" + numberOfRound);
+
+            // това е интерполиран текст
+            console.log(`Брой кръгове ${numberOfRound}`);
+
+            // () -- малки
+            // [] -- средни
+            // {} -- големи
+
+        // alert(numberOfQuestionsInRoundOne)
+            //console.log(numberOfQuestionsInRoundOne);
+            console.log(`Брой въпроси кръг 1 ${numberOfQuestionsInRoundOne}`);
+
+        // alert(numberOfQuestionInRoundTwo)
+            // console.log(numberOfQuestionInRoundTwo);
+            var secondRoundId = 2;
+            console.log("Брой въпроси \"кръг\" " + secondRoundId + " e " + numberOfQuestionInRoundTwo);
+            console.log(`Брой въпроси "кръг" ${secondRoundId} е ${numberOfQuestionInRoundTwo}`)
+
+        // alert(numberOfQuestionInRoundTree)
+            console.log(`Брой въпроси кръг 3 ${numberOfQuestionInRoundTree}`);
+
+        // alert(numberOfQuestionInFinalRound)
+            console.log(`Брой въпроси кръг 4 ${numberOfQuestionInFinalRound}`);
+
+        // var questionInRoundOne
+
+        // извеждане на инфо върху страницата към която сме линкнати
+        // alert(numberOfRound)
+
+
+        // Задача 2
+        // Всеки един от въпросите, носи със себе си някакъв точков актив, който се добавя към максималният актив на играча.
+        var totalPlayerScore = 0;
+        var maxScoreForRoundOne = 10;
+        var maxScoreForRoundTwo = 20;
+        var maxScoreForRoundTree = 30;
+        var maxScoreForFinalRound = 40;
+
+        // Задача 4 - стойност на лампата включена или изключена 
+        var isAplauseLampTurnOn = true;
+        isAplauseLampTurnOn = false;
+
+
+        // Как да напъхам повече от една стойност в една променлива  (МАСИВ ОТ ДАННИ)
+            // Ники
+            // шики
+            // Фики
+
+            var showHostNameCollection = ["Ники", "Шики", "Фики"];
+            // за достъп до стойностите ползваме ИНДЕКС - номера на стойността
+        console.log(`В Понеделник водещ е .... ${showHostNameCollection[0]}`)
+
+            // Как да получим данни от потребителя - въвеждайки текст на ръка
+            var userName =  prompt("Как се казваш ?");
+            console.log(`Ти се казваш ${userName}`);
+            console.log(`Ти се казваш ${userName}`);
+        </script>
+
+    </head>
+
+    <body>
+        
+    </body>
+</html>

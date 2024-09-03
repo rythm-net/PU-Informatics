@@ -1,0 +1,3 @@
+function turnonCommand() {
+    SystemObject.turnOn();
+}
