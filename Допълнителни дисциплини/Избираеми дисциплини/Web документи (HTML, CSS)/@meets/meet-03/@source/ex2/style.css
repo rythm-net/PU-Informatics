@@ -1,0 +1,50 @@
+/* Избира всчки елементи  */
+/* Reset */
+* {
+    margin  : 0;
+    padding : 0;
+}
+
+
+body {
+    background: #f5f5f5;
+}
+
+#wrapper {
+    box-sizing  : border-box;
+    margin      : auto;
+    width       : 670px;
+    background  : #fff;
+    border: solid #f2f2f2 1px;
+
+    padding: 54px 45px;
+    /* padding: 54px 45px 54px 45px; */
+}
+
+#pagging {
+    margin-top: 70px;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+.title {
+    margin-top  : 28px;
+    font-size   : 22px;
+    font-weight : bold;
+}
+
+.meta {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.with-border {
+    border-bottom: solid #f2f2f2 1px;
+}
+
+
+.extention {
+    color: #0000ff;
+}

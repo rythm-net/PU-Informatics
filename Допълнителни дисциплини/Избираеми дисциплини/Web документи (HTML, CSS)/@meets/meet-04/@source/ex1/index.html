@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Homework - Ex1</title>
+
+        <style>
+
+            body {
+                background: #faf8f7;
+            }
+
+            #wrapper {
+                margin      : auto;
+                width       : 610px;
+            }
+            
+            .box {
+                display         : flex;
+                width           : 610px;
+                height          : 100px;
+                margin-top      : 16px;
+                background      : #ffffff;
+                border-radius   : 5px;
+                border          : solid #f0f0f0 1px;
+                box-shadow      : 2px 2px 5px #f0f0f0;
+                cursor          : pointer;
+            }
+
+            .box:hover {
+                border          : solid #6298d1 1px;
+                background      : #ebf1f7;
+            }
+
+            .box-circle {
+                width           : 40px;
+                height          : 40px;
+                margin-top      : 28px;
+                margin-left     : 28px;
+
+                border-radius   : 50px;
+                background      : #faf8f7;
+            }
+
+            .box:hover .box-circle {
+                background      : #6298d1;
+            }
+
+            .box-content {
+                margin-top  : 26px;
+                font-size   : 34px;
+                margin-left : 32px;
+                font-family : Verdana;
+                color       : #707070;
+            }
+
+        </style>
+    </head>
+    <body>
+        
+        <div id="wrapper">
+
+            <div class="box">
+                <div class="box-circle"></div>
+                <div class="box-content">
+                    Learn how to design
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="box-circle"></div>
+                <div class="box-content">
+                    Learn how to program
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="box-circle"></div>
+                <div class="box-content">
+                    With CSS only
+                </div>
+            </div>            
+
+        </div>
+
+        
+    </body>
+</html>
