@@ -1,0 +1,25 @@
+.button {
+  width     : 200px;
+  background: #dedede;
+  border    : solid #000 1px;
+}
+
+.video-wrapper {
+  display: flex;
+}
+
+.video-placeholder {
+  width: 300px;
+  border: solid #dedede;
+  padding: 8px;
+}
+
+.error {
+  color: #ff0000;
+  font-weight: bold;
+}
+
+.element {
+  border-bottom: solid #dedede 2px;
+  margin-bottom: 16px
+}

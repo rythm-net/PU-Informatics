@@ -1,0 +1,22 @@
+<!-- Чрез IF показваме различни стойности -->
+<!--  .............. -->
+<!-- @if(inputTaskObject.status == 'todo') {
+  <div class="todo">{{inputTaskObject.task}}</div>
+}
+
+@if(inputTaskObject.status == 'doing') {
+  <div class="doing">{{inputTaskObject.task}}</div>
+}
+
+@if(inputTaskObject.status == 'done') {
+  <div class="done">{{inputTaskObject.task}}</div>
+} -->
+
+<div [class]="getClassByStatus(inputTaskObject.status)">
+  {{inputTaskObject.task}}
+</div>
+
+
+<button (click)="processStatus('todo')">TODO</button>
+<button (click)="processStatus('doing')">DOING</button>
+<button (click)="processStatus('done')">DONE</button>

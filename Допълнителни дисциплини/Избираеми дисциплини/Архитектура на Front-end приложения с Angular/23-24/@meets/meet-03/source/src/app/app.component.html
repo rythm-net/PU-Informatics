@@ -1,0 +1,82 @@
+<!-- <input type="text"> -->
+
+<!-- източник на количество данни -->
+<input type="text" [(ngModel)]="modelSize">
+
+<div class="video-wrapper">
+  <button
+    (click)="processPrevClip()"
+  class="button">Предишен клип</button>
+  <div class="video-placeholder">
+
+    <div class="video-placeholder--link">
+      {{ videoLinkCollection[index].link }}
+    </div>
+
+    <div class="video-placeholder--title">
+      {{ videoLinkCollection[index].title || 'No Title' }}
+    </div>
+
+    <div class="video-placeholder--note">
+      {{ videoLinkCollection[index].notes || 'No Notes' }}
+    </div>
+
+    <div class="video-data">
+
+      <!-- (input)="function()" -->
+
+      <!-- 2way data binding -->
+      <!-- Директива -->
+      <input
+      [(ngModel)]="modelTitle"
+      type="text"
+      placeholder="Заглавие на видеото">
+      <!-- {{modelTitle}} -->
+
+      @if(modelTitle.length > 5) {
+        <div class="error">Заглавието е твърде дълго</div>
+      }
+
+      <!-- <div *ngIf="modelTitle.length > 5" class="error">Заглавието е твърде дълго</div> -->
+
+      <input
+      [(ngModel)]="modelNote"
+      type="text"
+      placeholder="Бележки към видеото">
+
+      <div>Въведохте {{modelNote.length}} / {{modelSize}}</div>
+
+      @if(modelNote.length > modelSize) {
+        <div class="error">Бележката е много дълга</div>
+      }
+      <!-- {{modelNote}} -->
+      <button (click)="processSaveVideoData()">Запази ми бележките</button>
+    </div>
+
+  </div>
+  <button (click)="processNextClip()"  class="button">Следващ клип</button>
+</div>
+
+
+<app-list-view></app-list-view>
+
+<div>Всички клипове</div>
+@for (element of videoLinkCollection; track $index) {
+  <div class="element">
+    <div>{{element.link}}</div>
+    <div>{{element.title}}</div>
+    <div>{{element.notes}}</div>
+    <button (click)="processVideoRecord(element, $index)">Редактирай</button>
+  </div>
+}
+
+
+<!-- Стар вариант на FOR цикъл -->
+
+<!-- <div *ngFor="let element of videoLinkCollection; index" class="element">
+  <div>{{element.link}}</div>
+  <div>{{element.title}}</div>
+  <div>{{element.notes}}</div>
+  <button (click)="processVideoRecord(element, index)">Редактирай</button>
+</div>
+ -->

@@ -1,0 +1,29 @@
+<!-- <input type="text"> -->
+
+<div class="video-wrapper">
+  <button
+    (click)="processPrevClip()"
+  class="button">Предишен клип</button>
+  <div class="video-placeholder">
+
+    <div class="video-placeholder--link">
+      {{ videoLinkCollection[index].link }}
+    </div>
+
+    <div class="video-placeholder--title">
+      {{ videoLinkCollection[index].title || 'No Title' }}
+    </div>
+
+    <div class="video-placeholder--note">
+      {{ videoLinkCollection[index].notes || 'No Notes' }}
+    </div>
+
+    <div class="video-data">
+      <input (input)="processInputVideoTitle($event)" type="text" placeholder="Заглавие на видеото">
+      <input (input)="processInputVideoNote($event)" type="text" placeholder="Бележки към видеото">
+      <button (click)="processSaveVideoData()">Запази ми бележките</button>
+    </div>
+
+  </div>
+  <button (click)="processNextClip()"  class="button">Следващ клип</button>
+</div>
