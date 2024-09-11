@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <canvas 
+        width   = "800" 
+        height  = "800" 
+        id      = "game-board"
+        style   = "border: solid #ff0000 2px;"></canvas>
+
+    <!-- configurations -->
+    <script src="config/BoardConfig.js"></script>
+
+    <!-- Managers -->
+    <script src="managers/BoardManager.js"></script>
+    
+    <!-- Sprits and characters -->
+    <script src="sprites/Tile.js"></script>
+    <script src="sprites/Food.js"></script>
+    <script src="sprites/Obstacle.js"></script>
+    <script src="sprites/Snake.js"></script>
+    
+    <script src="application.js"></script>
+</body>
+</html>
