@@ -68,7 +68,7 @@
 ### II-ра част <sup>(12.12.2022 - 13.01.2023)</sup>
   - [Практика по специалността](https://github.com/rythm-net/UFO-game)
 
-### [II семестър]()
+### [II семестър](https://github.com/rythm-net/PU-Informatics/tree/main/III%20%D0%BA%D1%83%D1%80%D1%81/II%20%D1%81%D0%B5%D0%BC%D0%B5%D1%81%D1%82%D1%8A%D1%80)
   - [Агентни системи (Избираема дисциплина)](https://github.com/rythm-net/PU-Informatics/tree/main/III%20%D0%BA%D1%83%D1%80%D1%81/II%20%D1%81%D0%B5%D0%BC%D0%B5%D1%81%D1%82%D1%8A%D1%80/%D0%90%D0%B3%D0%B5%D0%BD%D1%82%D0%BD%D0%B8%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B8%20(%D0%98%D0%B7%D0%B1%D0%B8%D1%80%D0%B0%D0%B5%D0%BC%D0%B0%20%D0%B4%D0%B8%D1%81%D1%86%D0%B8%D0%BF%D0%BB%D0%B8%D0%BD%D0%B0))
   - [Вероятности и приложна статистика](https://github.com/rythm-net/PU-Informatics/tree/main/III%20%D0%BA%D1%83%D1%80%D1%81/II%20%D1%81%D0%B5%D0%BC%D0%B5%D1%81%D1%82%D1%8A%D1%80/%D0%92%D0%B5%D1%80%D0%BE%D1%8F%D1%82%D0%BD%D0%BE%D1%81%D1%82%D0%B8%20%D0%B8%20%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%BD%D0%B0%20%D1%81%D1%82%D0%B0%D1%82%D0%B8%D1%81%D1%82%D0%B8%D0%BA%D0%B0)
   - [Изкуствен интелект](https://github.com/rythm-net/PU-Informatics/tree/main/III%20%D0%BA%D1%83%D1%80%D1%81/II%20%D1%81%D0%B5%D0%BC%D0%B5%D1%81%D1%82%D1%8A%D1%80/%D0%98%D0%B7%D0%BA%D1%83%D1%81%D1%82%D0%B2%D0%B5%D0%BD%20%D0%B8%D0%BD%D1%82%D0%B5%D0%BB%D0%B5%D0%BA%D1%82)
@@ -80,3 +80,22 @@
     - [Курсов Проект](https://github.com/rythm-net/Easter-Project)
 
 ---
+
+### ```IV курс```
+
+### [I семестър](https://github.com/rythm-net/PU-Informatics/tree/main/IV%20%D0%BA%D1%83%D1%80%D1%81/I%20%D1%81%D0%B5%D0%BC%D0%B5%D1%81%D1%82%D1%8A%D1%80)
+  - [Информационна сигурност (Избираема дисциплина)](https://github.com/rythm-net/PU-Informatics/tree/main/IV%20%D0%BA%D1%83%D1%80%D1%81/I%20%D1%81%D0%B5%D0%BC%D0%B5%D1%81%D1%82%D1%8A%D1%80/%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%B0%20%D1%81%D0%B8%D0%B3%D1%83%D1%80%D0%BD%D0%BE%D1%81%D1%82%20(%D0%98%D0%B7%D0%B1%D0%B8%D1%80%D0%B0%D0%B5%D0%BC%D0%B0%20%D0%B4%D0%B8%D1%81%D1%86%D0%B8%D0%BF%D0%BB%D0%B8%D0%BD%D0%B0))
+  - [Информационно моделиране C#](https://github.com/rythm-net/PU-Informatics/tree/main/IV%20%D0%BA%D1%83%D1%80%D1%81/I%20%D1%81%D0%B5%D0%BC%D0%B5%D1%81%D1%82%D1%8A%D1%80/%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%BE%20%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D0%B8%D1%80%D0%B0%D0%BD%D0%B5%20C%23)
+    - [Курсов Проект](https://github.com/rythm-net/Simple-Drawing)
+  - [Компютърни числени методи](https://github.com/rythm-net/PU-Informatics/tree/main/IV%20%D0%BA%D1%83%D1%80%D1%81/I%20%D1%81%D0%B5%D0%BC%D0%B5%D1%81%D1%82%D1%8A%D1%80/%D0%9A%D0%BE%D0%BC%D0%BF%D1%8E%D1%82%D1%8A%D1%80%D0%BD%D0%B8%20%D1%87%D0%B8%D1%81%D0%BB%D0%B5%D0%BD%D0%B8%20%D0%BC%D0%B5%D1%82%D0%BE%D0%B4%D0%B8)
+  - [Методи на транслация](https://github.com/rythm-net/PU-Informatics/tree/main/IV%20%D0%BA%D1%83%D1%80%D1%81/I%20%D1%81%D0%B5%D0%BC%D0%B5%D1%81%D1%82%D1%8A%D1%80/%D0%9C%D0%B5%D1%82%D0%BE%D0%B4%D0%B8%20%D0%BD%D0%B0%20%D1%82%D1%80%D0%B0%D0%BD%D1%81%D0%BB%D0%B0%D1%86%D0%B8%D1%8F)
+    - [Курсов Проект](https://github.com/rythm-net/Compiler-Project/tree/main)
+  - [Разработване на уебсайт с Drupal (Избираема дисциплина)](https://github.com/rythm-net/PU-Informatics/tree/main/IV%20%D0%BA%D1%83%D1%80%D1%81/I%20%D1%81%D0%B5%D0%BC%D0%B5%D1%81%D1%82%D1%8A%D1%80/%D0%A0%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B2%D0%B0%D0%BD%D0%B5%20%D0%BD%D0%B0%20%D1%83%D0%B5%D0%B1%D1%81%D0%B0%D0%B9%D1%82%20%D1%81%20Drupal%20(%D0%98%D0%B7%D0%B1%D0%B8%D1%80%D0%B0%D0%B5%D0%BC%D0%B0%20%D0%B4%D0%B8%D1%81%D1%86%D0%B8%D0%BF%D0%BB%D0%B8%D0%BD%D0%B0))
+  - [Уеб сървърни езици](https://github.com/rythm-net/PU-Informatics/tree/main/IV%20%D0%BA%D1%83%D1%80%D1%81/I%20%D1%81%D0%B5%D0%BC%D0%B5%D1%81%D1%82%D1%8A%D1%80/%D0%A3%D0%B5%D0%B1%20%D1%81%D1%8A%D1%80%D0%B2%D1%8A%D1%80%D0%BD%D0%B8%20%D0%B5%D0%B7%D0%B8%D1%86%D0%B8)
+    - [Курсов Проект](https://github.com/rythm-net/Travel-Agency)
+
+### [II семестър]()
+  - [Въведение в ReactJS (Избираема дисциплина)](https://github.com/rythm-net/PU-Informatics/tree/main/IV%20%D0%BA%D1%83%D1%80%D1%81/II%20%D1%81%D0%B5%D0%BC%D0%B5%D1%81%D1%82%D1%8A%D1%80/%D0%92%D1%8A%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B2%20ReactJS%20(%D0%98%D0%B7%D0%B1%D0%B8%D1%80%D0%B0%D0%B5%D0%BC%D0%B0%20%D0%B4%D0%B8%D1%81%D1%86%D0%B8%D0%BF%D0%BB%D0%B8%D0%BD%D0%B0))
+  - [Компютърна лингвистика](https://github.com/rythm-net/PU-Informatics/tree/main/IV%20%D0%BA%D1%83%D1%80%D1%81/II%20%D1%81%D0%B5%D0%BC%D0%B5%D1%81%D1%82%D1%8A%D1%80/%D0%9A%D0%BE%D0%BC%D0%BF%D1%8E%D1%82%D1%8A%D1%80%D0%BD%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B3%D0%B2%D0%B8%D1%81%D1%82%D0%B8%D0%BA%D0%B0)
+  - [Осигуряване на качество на софтуер Q.A.](https://github.com/rythm-net/PU-Informatics/tree/main/IV%20%D0%BA%D1%83%D1%80%D1%81/II%20%D1%81%D0%B5%D0%BC%D0%B5%D1%81%D1%82%D1%8A%D1%80/%D0%9E%D1%81%D0%B8%D0%B3%D1%83%D1%80%D1%8F%D0%B2%D0%B0%D0%BD%D0%B5%20%D0%BD%D0%B0%20%D0%BA%D0%B0%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE%20%D0%BD%D0%B0%20%D1%81%D0%BE%D1%84%D1%82%D1%83%D0%B5%D1%80%20Q.A)
+  - [Управление на проекти](https://github.com/rythm-net/PU-Informatics/tree/main/IV%20%D0%BA%D1%83%D1%80%D1%81/II%20%D1%81%D0%B5%D0%BC%D0%B5%D1%81%D1%82%D1%8A%D1%80/%D0%A3%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BD%D0%B0%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B8)
