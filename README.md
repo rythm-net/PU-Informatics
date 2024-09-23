@@ -202,7 +202,7 @@
             <td><a href="III курс/II семестър/Информационна и комуникационна сигурност (Избираема дисциплина )">Информационна и комуникационна сигурност (Избираема дисциплина )</a></td>
         </tr>
         <tr>
-            <td><a href="III курс/I семестър/Разпределени приложения C#">Разпределени приложения C#</a>
+            <td><a href="https://github.com/rythm-net/PU-Informatics/tree/main/III%20%D0%BA%D1%83%D1%80%D1%81/I%20%D1%81%D0%B5%D0%BC%D0%B5%D1%81%D1%82%D1%8A%D1%80/%D0%A0%D0%B0%D0%B7%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%20%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F%20C%23">Разпределени приложения C#</a>
                 <ul>
                   <li><a href="https://github.com/rythm-net/WebApiJwt/">Курсов Проект</a></li>
                 </ul>
