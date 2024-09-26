@@ -12,7 +12,7 @@
 
 <h1 align="center">АКАДЕМИЧНА ПРОГРАМА</h1>
 
-<h3 align="center">I курс</h3>
+### ```I курс```
 
 <table align="center">
     <thead>
@@ -45,7 +45,7 @@
 
 ---
 
-<h3 align="center">II курс</h3>
+### ```II курс```
 
 <table align="center">
     <thead>
@@ -83,7 +83,7 @@
 
 ---
 
-<h3 align="center">III курс</h3>
+### ```III курс```
 
 <table align="center">
     <thead>
@@ -140,7 +140,7 @@
 
 ---
 
-<h3 align="center">IV курс</h3>
+### ```IV курс```
 
 <table align="center">
     <thead>
